@@ -19,6 +19,8 @@ pub struct SimpleProductData<'a> {
     pub product_name: &'a str,
     pub product_archetype: DeviceArchetype,
     pub hardware_platform_type: Option<&'a str>,
+    /// V1 API productid (e.g., "3241-3127-7871-LS00" for Hue Play)
+    pub product_id: Option<&'a str>,
 }
 
 impl<'a> SimpleProductData<'a> {
@@ -34,6 +36,24 @@ impl<'a> SimpleProductData<'a> {
             product_name,
             product_archetype,
             hardware_platform_type: Some(hardware_platform_type),
+            product_id: None,
+        }
+    }
+
+    /// helper function to construct signify devices with product_id
+    #[must_use]
+    pub const fn signify_with_product_id(
+        product_name: &'a str,
+        product_archetype: DeviceArchetype,
+        hardware_platform_type: &'a str,
+        product_id: &'a str,
+    ) -> Self {
+        Self {
+            manufacturer_name: DeviceProductData::SIGNIFY_MANUFACTURER_NAME,
+            product_name,
+            product_archetype,
+            hardware_platform_type: Some(hardware_platform_type),
+            product_id: Some(product_id),
         }
     }
 }
@@ -58,7 +78,7 @@ fn make_product_data() -> BTreeMap<&'static str, SimpleProductData<'static>> {
         "LCT014" => SPD::signify("Hue color lamp", SultanBulb, "100b-10c"),
         "LCT015" => SPD::signify("Hue color lamp", SultanBulb, "100b-10c"),
         "LCT016" => SPD::signify("Hue color lamp", SultanBulb, "100b-10c"),
-        "LCT024" => SPD::signify("Hue play", HuePlay, "100b-114"),
+        "LCT024" => SPD::signify_with_product_id("Hue play", HuePlay, "100b-114", "3241-3127-7871-LS00"),
         "LCX001" => SPD::signify("Hue play gradient lightstrip", HueLightstripTv, "100b-118"),
         "LCX005" => SPD::signify("Hue play gradient lightstrip", HueLightstripPc, "100b-118"),
         "LLC020" => SPD::signify("Hue go", HueGo, "100b-108"),
@@ -81,6 +101,7 @@ fn make_product_data() -> BTreeMap<&'static str, SimpleProductData<'static>> {
             product_name: "Lutron Aurora",
             product_archetype: UnknownArchetype,
             hardware_platform_type: Some("1144-0"),
+            product_id: None,
         },
     }
 }
@@ -108,6 +129,11 @@ pub fn manufacturer_name(model_id: &str) -> Option<&'static str> {
 #[must_use]
 pub fn product_name(model_id: &str) -> Option<&'static str> {
     product_data(model_id).map(|pd| pd.product_name)
+}
+
+#[must_use]
+pub fn product_id(model_id: &str) -> Option<&'static str> {
+    product_data(model_id).and_then(|pd| pd.product_id)
 }
 
 #[cfg(test)]

@@ -7,6 +7,7 @@ use uuid::Uuid;
 
 use crate::api::{ColorGamut, DeviceArchetype, DeviceProductData};
 use crate::date_format;
+use crate::devicedb;
 use crate::hs::RawHS;
 use crate::{api, best_guess_timezone};
 
@@ -666,10 +667,13 @@ impl ApiLight {
             },
             swupdate: SwUpdate::default(),
             name: light.metadata.name.clone(),
-            modelid: product_data.model_id,
+            modelid: product_data.model_id.clone(),
             manufacturername: product_data.manufacturer_name,
             productname: product_data.product_name,
-            productid: product_data.hardware_platform_type,
+            // Use devicedb product_id if available, otherwise fall back to hardware_platform_type
+            productid: devicedb::product_id(&product_data.model_id)
+                .map(ToString::to_string)
+                .or(product_data.hardware_platform_type),
 
             capabilities: json!({
                 "certified": true,
