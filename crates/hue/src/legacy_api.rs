@@ -603,7 +603,7 @@ impl ApiLight {
                 }
             }),
             config: json!({
-                "archetype": "spotbulb",
+                "archetype": product_data.product_archetype,
                 "function": "mixed",
                 "direction": "downwards",
                 "startup": {
