@@ -105,6 +105,11 @@ pub fn manufacturer_name(model_id: &str) -> Option<&'static str> {
     product_data(model_id).map(|pd| pd.manufacturer_name)
 }
 
+#[must_use]
+pub fn product_name(model_id: &str) -> Option<&'static str> {
+    product_data(model_id).map(|pd| pd.product_name)
+}
+
 #[cfg(test)]
 mod tests {
     use crate::api::DeviceArchetype;
