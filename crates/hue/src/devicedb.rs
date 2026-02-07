@@ -100,6 +100,11 @@ pub fn hardware_platform_type(model_id: &str) -> Option<&'static str> {
     product_data(model_id).and_then(|pd| pd.hardware_platform_type)
 }
 
+#[must_use]
+pub fn manufacturer_name(model_id: &str) -> Option<&'static str> {
+    product_data(model_id).map(|pd| pd.manufacturer_name)
+}
+
 #[cfg(test)]
 mod tests {
     use crate::api::DeviceArchetype;

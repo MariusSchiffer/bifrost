@@ -5,7 +5,7 @@ use hue::api::{
     LightColor, LightGradient, LightGradientMode, LightGradientPoint, LightGradientUpdate,
     LightUpdate, MirekSchema,
 };
-use hue::devicedb::{hardware_platform_type, product_archetype};
+use hue::devicedb::{hardware_platform_type, manufacturer_name, product_archetype};
 use hue::xy::XY;
 
 use crate::api::{Device, Expose, ExposeList, ExposeNumeric};
@@ -140,7 +140,10 @@ impl ExtractDeviceProductData for DeviceProductData {
 
         let product_name = str_or_unknown(dev.definition.as_ref().map(|def| &def.model));
         let model_id = str_or_unknown(dev.model_id.as_ref());
-        let manufacturer_name = str_or_unknown(dev.manufacturer.as_ref());
+        // Use devicedb manufacturer name if available, otherwise fall back to Z2M
+        let manufacturer_name = manufacturer_name(&model_id)
+            .map(ToString::to_string)
+            .unwrap_or_else(|| str_or_unknown(dev.manufacturer.as_ref()));
         let certified = manufacturer_name == Self::SIGNIFY_MANUFACTURER_NAME;
         let software_version = str_or_unknown(dev.software_build_id.as_ref());
 
