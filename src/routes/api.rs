@@ -17,7 +17,7 @@ use hue::api::{
     EntertainmentConfigurationNew, EntertainmentConfigurationServiceLocationsNew,
     EntertainmentConfigurationType, EntertainmentConfigurationUpdate, GroupedLight,
     GroupedLightUpdate, Light, LightUpdate, RType, ResourceLink, Room, Scene, SceneActive,
-    SceneStatus, SceneUpdate, V1Reply,
+    SceneStatus, SceneUpdate, V1Reply, ZigbeeConnectivity,
 };
 use hue::error::{HueApiV1Error, HueError, HueResult};
 use hue::legacy_api::{
@@ -60,9 +60,13 @@ fn get_lights(res: &MutexGuard<Resources>) -> ApiResult<HashMap<String, ApiLight
     for rr in res.get_resources_by_type(RType::Light) {
         let light: Light = rr.obj.try_into()?;
         let dev = res.get::<Device>(&light.owner)?;
+        let mac_address = dev
+            .zigbee_connectivity_service()
+            .and_then(|link| res.get::<ZigbeeConnectivity>(link).ok())
+            .map(|zc| zc.mac_address.clone());
         lights.insert(
             res.get_id_v1(rr.id)?,
-            ApiLight::from_dev_and_light(&rr.id, dev, &light),
+            ApiLight::from_dev_and_light(&rr.id, dev, &light, mac_address.as_deref()),
         );
     }
 
@@ -352,8 +356,12 @@ async fn get_api_user_resource_id(
             let link = ResourceLink::new(uuid, RType::Light);
             let light = lock.get::<Light>(&link)?;
             let dev = lock.get::<Device>(&light.owner)?;
+            let mac_address = dev
+                .zigbee_connectivity_service()
+                .and_then(|link| lock.get::<ZigbeeConnectivity>(link).ok())
+                .map(|zc| zc.mac_address.clone());
 
-            json!(ApiLight::from_dev_and_light(&uuid, dev, light))
+            json!(ApiLight::from_dev_and_light(&uuid, dev, light, mac_address.as_deref()))
         }
         ApiResourceType::Scenes => {
             let lock = state.res.lock().await;

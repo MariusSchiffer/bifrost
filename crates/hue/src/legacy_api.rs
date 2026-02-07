@@ -547,9 +547,29 @@ pub struct ApiLight {
 }
 
 impl ApiLight {
+    /// Format a Zigbee MAC address (e.g., "0x001788010612a661") to Hue uniqueid format
+    /// (e.g., "00:17:88:01:06:12:a6:61-0b")
+    fn format_uniqueid(mac: &str) -> Option<String> {
+        let hex = mac.strip_prefix("0x")?;
+        if hex.len() != 16 {
+            return None;
+        }
+        let formatted: Vec<String> = hex
+            .as_bytes()
+            .chunks(2)
+            .map(|chunk| std::str::from_utf8(chunk).unwrap_or("00").to_string())
+            .collect();
+        Some(format!("{}-0b", formatted.join(":")))
+    }
+
     #[allow(clippy::cast_possible_truncation, clippy::cast_sign_loss)]
     #[must_use]
-    pub fn from_dev_and_light(uuid: &Uuid, dev: &api::Device, light: &api::Light) -> Self {
+    pub fn from_dev_and_light(
+        uuid: &Uuid,
+        dev: &api::Device,
+        light: &api::Light,
+        mac_address: Option<&str>,
+    ) -> Self {
         let colormode = if light.color.is_some() {
             LightColorMode::Xy
         } else {
@@ -557,6 +577,11 @@ impl ApiLight {
         };
 
         let product_data = dev.product_data.clone();
+
+        // Use formatted MAC address if available, otherwise fall back to UUID
+        let uniqueid = mac_address
+            .and_then(Self::format_uniqueid)
+            .unwrap_or_else(|| uuid.as_simple().to_string());
 
         Self {
             state: ApiLightState {
@@ -613,8 +638,7 @@ impl ApiLight {
             }),
             light_type: "Extended color light".to_string(),
 
-            /* FIXME: Should have form "00:11:22:33:44:55:66:77-0b" */
-            uniqueid: uuid.as_simple().to_string(),
+            uniqueid,
 
             swversion: product_data.software_version,
 

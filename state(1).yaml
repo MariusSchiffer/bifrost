@@ -1,0 +1,3205 @@
+version: V1
+aux:
+  '186acbfb-ac98-566e-95c9-89444a3eb542':
+    topic: Mini
+    index: null
+  '3349bed3-7040-504d-bc33-3c8310587487':
+    topic: Balkon
+    index: null
+  '454718f6-43a7-5fe1-9c24-04dd292dcf7b':
+    topic: Kleiderschrank Spot
+    index: null
+  '4d742e2f-bf40-53f5-a33b-dce47aa5bec1':
+    topic: Spiegel
+    index: null
+  '5d895cf1-2505-511b-a735-eb3285decd39':
+    topic: Bett
+    index: null
+  '6447c834-4ce6-5540-ab8a-1dbd300e14a0':
+    topic: Küche Schrank
+    index: null
+  '76b6ecd9-cae8-5d5f-92aa-6a78c0369071':
+    topic: Spüle
+    index: null
+  '83dbe0de-d1bb-5849-83c8-3f866355c220':
+    topic: Wohnzimmer Kugel
+    index: null
+  '84d4845f-5b91-527e-8d30-3a33b9087609':
+    topic: Küchenschrank oben COB
+    index: null
+  c24685fd-0d5d-58e5-a354-c4ddd3e1c5f5:
+    topic: play2
+    index: null
+  c8160e6c-bd1c-5b18-9754-0a5dc44b1bf2:
+    topic: play1
+    index: null
+  d2b54a60-3026-586f-a996-8e8261553ddd:
+    topic: Kleiderschrank
+    index: null
+  d703e3c7-5bb2-5b73-95a2-9d36f1fe6d62:
+    topic: Bett Seite
+    index: null
+  ee4dd80e-3851-5596-a473-367236be10c1:
+    topic: Sofa
+    index: null
+  f53d34ad-40f7-5045-93fc-6a3afbf09df5:
+    topic: Herd Neu
+    index: null
+  fe091fad-046f-54bc-8520-0838d8accfb9:
+    topic: Sofa COB
+    index: null
+id_v1:
+  forward:
+    '03dad2dc-b4ef-58bc-90d2-d0db8fc7f4f7': 42
+    '044e92dc-fad0-50c0-935c-8f0a8b34d425': 12
+    '097f45bb-f18a-5098-8649-61f593b2273c': 28
+    '1011146b-966b-5ddb-bef4-047477795edf': 89
+    '12f45c67-b50d-5f43-937d-237c342f9103': 80
+    '1429c942-0367-5f26-973a-2d453f83f54e': 83
+    '145a7f6b-7b37-5d0d-95fd-3b18a0072323': 15
+    '16f8a57a-a795-5535-b224-5f3bb68b1dc5': 27
+    '1746edfc-9e57-5835-a600-8117cb424fe6': 33
+    '186acbfb-ac98-566e-95c9-89444a3eb542': 59
+    '1a58ca4c-dd1b-53b3-affa-f4f690becd09': 43
+    '1bd1d8e2-ae4f-5a8a-8b5b-c4f840d9ae32': 4
+    '1e0b6e94-cc05-5fb9-8bf4-ddf5acbe850f': 10
+    '1f3fa946-80f6-51ec-9564-1eceec99e0f7': 11
+    '20501536-5aec-5414-bb9e-b5e9f8054ae6': 76
+    '29b60794-cc42-5063-9a2e-b2890e93fd43': 30
+    '2c1a7c3c-d5a5-5e78-91dc-1f7272d276fb': 17
+    '30e79a74-57bf-55c3-96c2-b91559c80660': 36
+    '3349bed3-7040-504d-bc33-3c8310587487': 34
+    '3359efa1-265c-536a-a4d4-8f0bc0b728f9': 0
+    '33a15f17-7091-5ea5-a2e7-5ff19f0c2bae': 46
+    '35bb4997-40d4-56e7-8d8b-64401109cb5f': 52
+    '3c82622d-c93b-5640-ada9-262b9a26bb6e': 58
+    '3d8064d9-3809-5ada-9442-7a2a0eccbf03': 62
+    '3eb251fe-f7cf-5eea-a2cc-df406125f1a7': 72
+    '40be7f83-68f8-51b5-a3c2-2654d37ade4f': 90
+    '42cf27a3-5b99-54d9-8ad6-6ae3016b7da9': 91
+    '42fa4e71-a146-58ab-bd8f-462ea74d5487': 6
+    '454718f6-43a7-5fe1-9c24-04dd292dcf7b': 44
+    '4664cbac-d65c-5a6d-82a7-5d4426f327b0': 47
+    '477f0c4e-b973-5488-82b3-46d4e3ad8041': 26
+    '4aa82e5f-1e64-529b-9f57-006dfac3cdb6': 18
+    '4c983680-8173-5006-9761-3ac944f081ea': 82
+    '4d742e2f-bf40-53f5-a33b-dce47aa5bec1': 64
+    '536d558f-5293-5dde-a938-b759d05b99d3': 32
+    '563452b2-e21c-509c-9a74-2fe88957d76d': 88
+    '5636df1a-eeba-5edb-ba35-b5831504eedf': 61
+    '56af4b81-8c9e-51ed-939f-d961f0edf537': 50
+    '59268d26-7272-500d-8ae0-68560a0d23e5': 2
+    '5a3cdeed-b508-5d92-abf8-82abd1f4d3f6': 60
+    '5b357bd1-5a7f-5443-a2d5-57426f73f0f2': 68
+    '5d21caf4-df81-5882-86e7-9372782c9db8': 93
+    '5d48067a-d50d-5fa5-a6d1-b10ca0cd4928': 1
+    '5d895cf1-2505-511b-a735-eb3285decd39': 49
+    '5db3a90a-d76f-59e0-a25f-72f2eea796bc': 87
+    '6146a76d-e17b-5b30-b84c-06545a96e95a': 77
+    '616c66af-d20a-5fe6-b8d6-f11095176094': 22
+    '6447c834-4ce6-5540-ab8a-1dbd300e14a0': 14
+    '6455655b-a613-562d-ba5d-88daa76f94fc': 85
+    '6652b045-0d56-5c61-9f9d-0d8deb0d3142': 7
+    '6c3aa8ee-e35f-582e-a167-608951e572f5': 41
+    '6d73ed4e-6ae6-5b38-b7b4-6f76964d3720': 65
+    '6f87e8dd-353f-5a18-a2d6-e0465d5733d1': 51
+    '74ce320e-d67a-5f64-b16f-53a1db41c8da': 13
+    '76b6ecd9-cae8-5d5f-92aa-6a78c0369071': 19
+    '7c1e1d93-f9ed-5970-8b65-d3e61069269c': 45
+    '7ed434ee-bcf3-5a9d-87db-c7c5884b2eb4': 75
+    '810879c0-69fb-5f6b-8e61-7f93ce30efc4': 92
+    '81fde9b0-a57e-54dc-ad56-19c7d453ee3b': 21
+    '83dbe0de-d1bb-5849-83c8-3f866355c220': 9
+    '84d4845f-5b91-527e-8d30-3a33b9087609': 69
+    '8ad9e309-8b85-536c-8529-604dc18292c3': 31
+    '8f18e527-9862-5364-999c-206573d66422': 35
+    '92dec904-5e8a-5caa-bdef-be9d5f88953f': 55
+    a217aa16-123a-53c8-9c63-a807cfe4c548: 53
+    a6d22539-b818-5c89-8649-cf7186ab7173: 20
+    b3431572-b9b0-5442-8486-405253e7e1ce: 57
+    bae89e01-5994-5273-8cb5-0a15693f3dc3: 48
+    bc88e9b6-f942-5f79-9cf7-8c2cbaf6503d: 25
+    c0970dfd-a3bf-5b49-9f2a-d22648677e85: 73
+    c24685fd-0d5d-58e5-a354-c4ddd3e1c5f5: 84
+    c68d48ce-ddc1-5f53-a8b6-6de72e8614b8: 40
+    c6c5718b-db23-56c9-9f40-dfa3a0ff5630: 23
+    c8160e6c-bd1c-5b18-9754-0a5dc44b1bf2: 79
+    d2b54a60-3026-586f-a996-8e8261553ddd: 39
+    d3429b61-7379-50b3-8cb1-ba61b3b22aa8: 5
+    d703e3c7-5bb2-5b73-95a2-9d36f1fe6d62: 54
+    d7b11489-9df8-570d-b382-99d16f5015a8: 63
+    d80dd6d8-e87e-5b6b-a098-dd0afa2750fe: 37
+    d91de789-06d7-5bc4-909a-dcc39eeff21e: 38
+    deeefb2d-d348-5f78-acda-a55406ce901b: 8
+    e02f9cf3-686b-535f-a1ad-71aab9160b7b: 67
+    e09b6245-c033-51d0-b673-ca56ca53147c: 3
+    e228deef-915e-57f5-85ff-286ec07f8289: 86
+    ecd304b0-c5ea-52a3-a55f-a0448d9df75f: 66
+    ee4dd80e-3851-5596-a473-367236be10c1: 29
+    f0bace5e-da22-5bc7-8856-72b2c3078df5: 81
+    f43ffe21-e3d1-58ba-80a1-6324ee135ccb: 78
+    f53d34ad-40f7-5045-93fc-6a3afbf09df5: 24
+    f5f34b96-5ee4-5f14-8d90-8a6ebd3f412b: 16
+    f6d000c2-f310-5661-b9dd-eee6ecbda7e2: 56
+    fb285591-652c-53c7-83df-875f35beabde: 71
+    fdbc8b2f-0146-5955-adf3-805f7312488b: 70
+    fe091fad-046f-54bc-8520-0838d8accfb9: 74
+  reverse:
+    0: '3359efa1-265c-536a-a4d4-8f0bc0b728f9'
+    1: '5d48067a-d50d-5fa5-a6d1-b10ca0cd4928'
+    2: '59268d26-7272-500d-8ae0-68560a0d23e5'
+    3: e09b6245-c033-51d0-b673-ca56ca53147c
+    4: '1bd1d8e2-ae4f-5a8a-8b5b-c4f840d9ae32'
+    5: d3429b61-7379-50b3-8cb1-ba61b3b22aa8
+    6: '42fa4e71-a146-58ab-bd8f-462ea74d5487'
+    7: '6652b045-0d56-5c61-9f9d-0d8deb0d3142'
+    8: deeefb2d-d348-5f78-acda-a55406ce901b
+    9: '83dbe0de-d1bb-5849-83c8-3f866355c220'
+    10: '1e0b6e94-cc05-5fb9-8bf4-ddf5acbe850f'
+    11: '1f3fa946-80f6-51ec-9564-1eceec99e0f7'
+    12: '044e92dc-fad0-50c0-935c-8f0a8b34d425'
+    13: '74ce320e-d67a-5f64-b16f-53a1db41c8da'
+    14: '6447c834-4ce6-5540-ab8a-1dbd300e14a0'
+    15: '145a7f6b-7b37-5d0d-95fd-3b18a0072323'
+    16: f5f34b96-5ee4-5f14-8d90-8a6ebd3f412b
+    17: '2c1a7c3c-d5a5-5e78-91dc-1f7272d276fb'
+    18: '4aa82e5f-1e64-529b-9f57-006dfac3cdb6'
+    19: '76b6ecd9-cae8-5d5f-92aa-6a78c0369071'
+    20: a6d22539-b818-5c89-8649-cf7186ab7173
+    21: '81fde9b0-a57e-54dc-ad56-19c7d453ee3b'
+    22: '616c66af-d20a-5fe6-b8d6-f11095176094'
+    23: c6c5718b-db23-56c9-9f40-dfa3a0ff5630
+    24: f53d34ad-40f7-5045-93fc-6a3afbf09df5
+    25: bc88e9b6-f942-5f79-9cf7-8c2cbaf6503d
+    26: '477f0c4e-b973-5488-82b3-46d4e3ad8041'
+    27: '16f8a57a-a795-5535-b224-5f3bb68b1dc5'
+    28: '097f45bb-f18a-5098-8649-61f593b2273c'
+    29: ee4dd80e-3851-5596-a473-367236be10c1
+    30: '29b60794-cc42-5063-9a2e-b2890e93fd43'
+    31: '8ad9e309-8b85-536c-8529-604dc18292c3'
+    32: '536d558f-5293-5dde-a938-b759d05b99d3'
+    33: '1746edfc-9e57-5835-a600-8117cb424fe6'
+    34: '3349bed3-7040-504d-bc33-3c8310587487'
+    35: '8f18e527-9862-5364-999c-206573d66422'
+    36: '30e79a74-57bf-55c3-96c2-b91559c80660'
+    37: d80dd6d8-e87e-5b6b-a098-dd0afa2750fe
+    38: d91de789-06d7-5bc4-909a-dcc39eeff21e
+    39: d2b54a60-3026-586f-a996-8e8261553ddd
+    40: c68d48ce-ddc1-5f53-a8b6-6de72e8614b8
+    41: '6c3aa8ee-e35f-582e-a167-608951e572f5'
+    42: '03dad2dc-b4ef-58bc-90d2-d0db8fc7f4f7'
+    43: '1a58ca4c-dd1b-53b3-affa-f4f690becd09'
+    44: '454718f6-43a7-5fe1-9c24-04dd292dcf7b'
+    45: '7c1e1d93-f9ed-5970-8b65-d3e61069269c'
+    46: '33a15f17-7091-5ea5-a2e7-5ff19f0c2bae'
+    47: '4664cbac-d65c-5a6d-82a7-5d4426f327b0'
+    48: bae89e01-5994-5273-8cb5-0a15693f3dc3
+    49: '5d895cf1-2505-511b-a735-eb3285decd39'
+    50: '56af4b81-8c9e-51ed-939f-d961f0edf537'
+    51: '6f87e8dd-353f-5a18-a2d6-e0465d5733d1'
+    52: '35bb4997-40d4-56e7-8d8b-64401109cb5f'
+    53: a217aa16-123a-53c8-9c63-a807cfe4c548
+    54: d703e3c7-5bb2-5b73-95a2-9d36f1fe6d62
+    55: '92dec904-5e8a-5caa-bdef-be9d5f88953f'
+    56: f6d000c2-f310-5661-b9dd-eee6ecbda7e2
+    57: b3431572-b9b0-5442-8486-405253e7e1ce
+    58: '3c82622d-c93b-5640-ada9-262b9a26bb6e'
+    59: '186acbfb-ac98-566e-95c9-89444a3eb542'
+    60: '5a3cdeed-b508-5d92-abf8-82abd1f4d3f6'
+    61: '5636df1a-eeba-5edb-ba35-b5831504eedf'
+    62: '3d8064d9-3809-5ada-9442-7a2a0eccbf03'
+    63: d7b11489-9df8-570d-b382-99d16f5015a8
+    64: '4d742e2f-bf40-53f5-a33b-dce47aa5bec1'
+    65: '6d73ed4e-6ae6-5b38-b7b4-6f76964d3720'
+    66: ecd304b0-c5ea-52a3-a55f-a0448d9df75f
+    67: e02f9cf3-686b-535f-a1ad-71aab9160b7b
+    68: '5b357bd1-5a7f-5443-a2d5-57426f73f0f2'
+    69: '84d4845f-5b91-527e-8d30-3a33b9087609'
+    70: fdbc8b2f-0146-5955-adf3-805f7312488b
+    71: fb285591-652c-53c7-83df-875f35beabde
+    72: '3eb251fe-f7cf-5eea-a2cc-df406125f1a7'
+    73: c0970dfd-a3bf-5b49-9f2a-d22648677e85
+    74: fe091fad-046f-54bc-8520-0838d8accfb9
+    75: '7ed434ee-bcf3-5a9d-87db-c7c5884b2eb4'
+    76: '20501536-5aec-5414-bb9e-b5e9f8054ae6'
+    77: '6146a76d-e17b-5b30-b84c-06545a96e95a'
+    78: f43ffe21-e3d1-58ba-80a1-6324ee135ccb
+    79: c8160e6c-bd1c-5b18-9754-0a5dc44b1bf2
+    80: '12f45c67-b50d-5f43-937d-237c342f9103'
+    81: f0bace5e-da22-5bc7-8856-72b2c3078df5
+    82: '4c983680-8173-5006-9761-3ac944f081ea'
+    83: '1429c942-0367-5f26-973a-2d453f83f54e'
+    84: c24685fd-0d5d-58e5-a354-c4ddd3e1c5f5
+    85: '6455655b-a613-562d-ba5d-88daa76f94fc'
+    86: e228deef-915e-57f5-85ff-286ec07f8289
+    87: '5db3a90a-d76f-59e0-a25f-72f2eea796bc'
+    88: '563452b2-e21c-509c-9a74-2fe88957d76d'
+    89: '1011146b-966b-5ddb-bef4-047477795edf'
+    90: '40be7f83-68f8-51b5-a3c2-2654d37ade4f'
+    91: '42cf27a3-5b99-54d9-8ad6-6ae3016b7da9'
+    92: '810879c0-69fb-5f6b-8e61-7f93ce30efc4'
+    93: '5d21caf4-df81-5882-86e7-9372782c9db8'
+res:
+  '03dad2dc-b4ef-58bc-90d2-d0db8fc7f4f7':
+    type: zigbee_connectivity
+    mac_address: '0x0017880109bab70b'
+    owner:
+      rid: d91de789-06d7-5bc4-909a-dcc39eeff21e
+      rtype: device
+    status: connected
+  '044e92dc-fad0-50c0-935c-8f0a8b34d425':
+    type: zigbee_connectivity
+    mac_address: '0x0017880101225df1'
+    owner:
+      rid: deeefb2d-d348-5f78-acda-a55406ce901b
+      rtype: device
+    status: connected
+  '097f45bb-f18a-5098-8649-61f593b2273c':
+    type: device
+    product_data:
+      model_id: LCL008
+      manufacturer_name: Signify Netherlands B.V.
+      product_name: '929003816901'
+      product_archetype: unknown_archetype
+      certified: true
+      software_version: '1.122.8'
+    metadata:
+      name: Sofa
+      archetype: unknown_archetype
+    services:
+    - rid: '29b60794-cc42-5063-9a2e-b2890e93fd43'
+      rtype: entertainment
+    - rid: '536d558f-5293-5dde-a938-b759d05b99d3'
+      rtype: zigbee_connectivity
+    - rid: '8ad9e309-8b85-536c-8529-604dc18292c3'
+      rtype: taurus_7455
+    - rid: ee4dd80e-3851-5596-a473-367236be10c1
+      rtype: light
+    identify: {}
+  '1011146b-966b-5ddb-bef4-047477795edf':
+    type: grouped_light
+    alert: null
+    dimming: null
+    color: {}
+    color_temperature: {}
+    color_temperature_delta: {}
+    dimming_delta: {}
+    dynamics: {}
+    'on': null
+    owner:
+      rid: '563452b2-e21c-509c-9a74-2fe88957d76d'
+      rtype: room
+    signaling: null
+  '12f45c67-b50d-5f43-937d-237c342f9103':
+    type: entertainment
+    equalizer: true
+    owner:
+      rid: f43ffe21-e3d1-58ba-80a1-6324ee135ccb
+      rtype: device
+    proxy: true
+    renderer: true
+    renderer_reference:
+      rid: c8160e6c-bd1c-5b18-9754-0a5dc44b1bf2
+      rtype: light
+    segments:
+      configurable: false
+      max_segments: 1
+      segments:
+      - length: 1
+        start: 0
+  '1429c942-0367-5f26-973a-2d453f83f54e':
+    type: device
+    product_data:
+      model_id: LCT024
+      manufacturer_name: Philips
+      product_name: '915005733701'
+      product_archetype: hue_play
+      certified: false
+      software_version: '1.116.8'
+      hardware_platform_type: '100b-114'
+    metadata:
+      name: play2
+      archetype: hue_play
+    services:
+    - rid: '5db3a90a-d76f-59e0-a25f-72f2eea796bc'
+      rtype: zigbee_connectivity
+    - rid: '6455655b-a613-562d-ba5d-88daa76f94fc'
+      rtype: entertainment
+    - rid: c24685fd-0d5d-58e5-a354-c4ddd3e1c5f5
+      rtype: light
+    - rid: e228deef-915e-57f5-85ff-286ec07f8289
+      rtype: taurus_7455
+    identify: {}
+  '145a7f6b-7b37-5d0d-95fd-3b18a0072323':
+    type: entertainment
+    equalizer: true
+    owner:
+      rid: '74ce320e-d67a-5f64-b16f-53a1db41c8da'
+      rtype: device
+    proxy: true
+    renderer: true
+    renderer_reference:
+      rid: '6447c834-4ce6-5540-ab8a-1dbd300e14a0'
+      rtype: light
+    segments:
+      configurable: false
+      max_segments: 1
+      segments:
+      - length: 1
+        start: 0
+  '16f8a57a-a795-5535-b224-5f3bb68b1dc5':
+    type: zigbee_connectivity
+    mac_address: '0x001788010b48877b'
+    owner:
+      rid: c6c5718b-db23-56c9-9f40-dfa3a0ff5630
+      rtype: device
+    status: connected
+  '1746edfc-9e57-5835-a600-8117cb424fe6':
+    type: device
+    product_data:
+      model_id: LCL003
+      manufacturer_name: Signify Netherlands B.V.
+      product_name: '9290022891'
+      product_archetype: unknown_archetype
+      certified: true
+      software_version: '1.122.8'
+    metadata:
+      name: Balkon
+      archetype: unknown_archetype
+    services:
+    - rid: '30e79a74-57bf-55c3-96c2-b91559c80660'
+      rtype: taurus_7455
+    - rid: '3349bed3-7040-504d-bc33-3c8310587487'
+      rtype: light
+    - rid: '8f18e527-9862-5364-999c-206573d66422'
+      rtype: entertainment
+    - rid: d80dd6d8-e87e-5b6b-a098-dd0afa2750fe
+      rtype: zigbee_connectivity
+    identify: {}
+  '186acbfb-ac98-566e-95c9-89444a3eb542':
+    type: light
+    owner:
+      rid: '3c82622d-c93b-5640-ada9-262b9a26bb6e'
+      rtype: device
+    metadata:
+      name: Mini
+      archetype: unknown_archetype
+      function: decorative
+    product_data:
+      function: decorative
+    alert:
+      action_values:
+      - breathe
+    color:
+      gamut:
+        red:
+          x: 0.6915
+          'y': 0.3083
+        green:
+          x: 0.17
+          'y': 0.7
+        blue:
+          x: 0.1532
+          'y': 0.0475
+      gamut_type: C
+      xy:
+        x: 0.459766381220253
+        'y': 0.410540631541641
+    color_temperature:
+      mirek: null
+      mirek_schema:
+        mirek_minimum: 150
+        mirek_maximum: 500
+      mirek_valid: true
+    color_temperature_delta: {}
+    dimming:
+      brightness: 50.0
+      min_dim_level: 0.01
+    dimming_delta: {}
+    dynamics:
+      status: none
+      status_values:
+      - none
+      - dynamic_palette
+      speed: 0.0
+      speed_valid: false
+    service_id: 0
+    identify: {}
+    timed_effects:
+      status_values:
+      - no_effect
+      - sunrise
+      - sunset
+      status: no_effect
+      effect_values:
+      - no_effect
+      - sunrise
+      - sunset
+    mode: normal
+    'on':
+      'on': false
+    powerup:
+      preset: safety
+      configured: true
+      'on':
+        mode: 'on'
+        'on':
+          'on': true
+      dimming:
+        mode: dimming
+        dimming:
+          brightness: 100.0
+      color:
+        mode: color_temperature
+        color_temperature:
+          mirek: 366
+    signaling:
+      signal_values:
+      - no_signal
+      - on_off
+      - on_off_color
+      - alternating
+  '1a58ca4c-dd1b-53b3-affa-f4f690becd09':
+    type: device
+    product_data:
+      model_id: LCT015
+      manufacturer_name: Signify Netherlands B.V.
+      product_name: '9290012573A'
+      product_archetype: sultan_bulb
+      certified: true
+      software_version: '1.116.8'
+      hardware_platform_type: '100b-10c'
+    metadata:
+      name: Kleiderschrank Spot
+      archetype: sultan_bulb
+    services:
+    - rid: '33a15f17-7091-5ea5-a2e7-5ff19f0c2bae'
+      rtype: taurus_7455
+    - rid: '454718f6-43a7-5fe1-9c24-04dd292dcf7b'
+      rtype: light
+    - rid: '4664cbac-d65c-5a6d-82a7-5d4426f327b0'
+      rtype: zigbee_connectivity
+    - rid: '7c1e1d93-f9ed-5970-8b65-d3e61069269c'
+      rtype: entertainment
+    identify: {}
+  '1bd1d8e2-ae4f-5a8a-8b5b-c4f840d9ae32':
+    type: zigbee_device_discovery
+    owner:
+      rid: '3359efa1-265c-536a-a4d4-8f0bc0b728f9'
+      rtype: device
+    status: ready
+  '1e0b6e94-cc05-5fb9-8bf4-ddf5acbe850f':
+    type: entertainment
+    equalizer: true
+    owner:
+      rid: deeefb2d-d348-5f78-acda-a55406ce901b
+      rtype: device
+    proxy: true
+    renderer: true
+    renderer_reference:
+      rid: '83dbe0de-d1bb-5849-83c8-3f866355c220'
+      rtype: light
+    segments:
+      configurable: false
+      max_segments: 1
+      segments:
+      - length: 1
+        start: 0
+  '1f3fa946-80f6-51ec-9564-1eceec99e0f7':
+    type: taurus_7455
+    capabilities:
+    - sensor
+    - collector
+    - sync
+    owner:
+      rid: deeefb2d-d348-5f78-acda-a55406ce901b
+      rtype: device
+  '20501536-5aec-5414-bb9e-b5e9f8054ae6':
+    type: taurus_7455
+    capabilities:
+    - sensor
+    - collector
+    - sync
+    owner:
+      rid: c0970dfd-a3bf-5b49-9f2a-d22648677e85
+      rtype: device
+  '29b60794-cc42-5063-9a2e-b2890e93fd43':
+    type: entertainment
+    equalizer: true
+    owner:
+      rid: '097f45bb-f18a-5098-8649-61f593b2273c'
+      rtype: device
+    proxy: true
+    renderer: true
+    renderer_reference:
+      rid: ee4dd80e-3851-5596-a473-367236be10c1
+      rtype: light
+    segments:
+      configurable: false
+      max_segments: 1
+      segments:
+      - length: 1
+        start: 0
+  '2c1a7c3c-d5a5-5e78-91dc-1f7272d276fb':
+    type: zigbee_connectivity
+    mac_address: '0x0017880109130cc2'
+    owner:
+      rid: '74ce320e-d67a-5f64-b16f-53a1db41c8da'
+      rtype: device
+    status: connected
+  '30e79a74-57bf-55c3-96c2-b91559c80660':
+    type: taurus_7455
+    capabilities:
+    - sensor
+    - collector
+    - sync
+    owner:
+      rid: '1746edfc-9e57-5835-a600-8117cb424fe6'
+      rtype: device
+  '3349bed3-7040-504d-bc33-3c8310587487':
+    type: light
+    owner:
+      rid: '1746edfc-9e57-5835-a600-8117cb424fe6'
+      rtype: device
+    metadata:
+      name: Balkon
+      archetype: unknown_archetype
+      function: decorative
+    product_data:
+      function: decorative
+    alert:
+      action_values:
+      - breathe
+    color:
+      gamut:
+        red:
+          x: 0.6915
+          'y': 0.3083
+        green:
+          x: 0.17
+          'y': 0.7
+        blue:
+          x: 0.1532
+          'y': 0.0475
+      gamut_type: C
+      xy:
+        x: 0.31271
+        'y': 0.32902
+    color_temperature:
+      mirek: null
+      mirek_schema:
+        mirek_minimum: 150
+        mirek_maximum: 500
+      mirek_valid: true
+    color_temperature_delta: {}
+    dimming:
+      brightness: 100.0
+      min_dim_level: 0.01
+    dimming_delta: {}
+    dynamics:
+      status: none
+      status_values:
+      - none
+      - dynamic_palette
+      speed: 0.0
+      speed_valid: false
+    effects:
+      status_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      status: no_effect
+      effect_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+    effects_v2:
+      action:
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+      status:
+        effect: no_effect
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+    service_id: 0
+    identify: {}
+    timed_effects:
+      status_values:
+      - no_effect
+      - sunrise
+      - sunset
+      status: no_effect
+      effect_values:
+      - no_effect
+      - sunrise
+      - sunset
+    mode: normal
+    'on':
+      'on': false
+    powerup:
+      preset: safety
+      configured: true
+      'on':
+        mode: 'on'
+        'on':
+          'on': true
+      dimming:
+        mode: dimming
+        dimming:
+          brightness: 100.0
+      color:
+        mode: color_temperature
+        color_temperature:
+          mirek: 366
+    signaling:
+      signal_values:
+      - no_signal
+      - on_off
+      - on_off_color
+      - alternating
+  '3359efa1-265c-536a-a4d4-8f0bc0b728f9':
+    type: device
+    product_data:
+      model_id: BSB002
+      manufacturer_name: Signify Netherlands B.V.
+      product_name: Hue Bridge
+      product_archetype: bridge_v2
+      certified: true
+      software_version: '1.70.1970084010'
+    metadata:
+      name: Bifrost
+      archetype: bridge_v2
+    services:
+    - rid: '1bd1d8e2-ae4f-5a8a-8b5b-c4f840d9ae32'
+      rtype: zigbee_device_discovery
+    - rid: '42fa4e71-a146-58ab-bd8f-462ea74d5487'
+      rtype: entertainment
+    - rid: '5d48067a-d50d-5fa5-a6d1-b10ca0cd4928'
+      rtype: bridge
+    - rid: d3429b61-7379-50b3-8cb1-ba61b3b22aa8
+      rtype: zigbee_connectivity
+    identify: {}
+  '33a15f17-7091-5ea5-a2e7-5ff19f0c2bae':
+    type: taurus_7455
+    capabilities:
+    - sensor
+    - collector
+    - sync
+    owner:
+      rid: '1a58ca4c-dd1b-53b3-affa-f4f690becd09'
+      rtype: device
+  '35bb4997-40d4-56e7-8d8b-64401109cb5f':
+    type: zigbee_connectivity
+    mac_address: '0x0017880103a0ed33'
+    owner:
+      rid: bae89e01-5994-5273-8cb5-0a15693f3dc3
+      rtype: device
+    status: connected
+  '3c82622d-c93b-5640-ada9-262b9a26bb6e':
+    type: device
+    product_data:
+      model_id: '7602031P7'
+      manufacturer_name: Philips
+      product_name: '7602031P7'
+      product_archetype: unknown_archetype
+      certified: false
+      software_version: '1.122.8'
+    metadata:
+      name: Mini
+      archetype: unknown_archetype
+    services:
+    - rid: '186acbfb-ac98-566e-95c9-89444a3eb542'
+      rtype: light
+    - rid: '3d8064d9-3809-5ada-9442-7a2a0eccbf03'
+      rtype: zigbee_connectivity
+    - rid: '5636df1a-eeba-5edb-ba35-b5831504eedf'
+      rtype: taurus_7455
+    - rid: '5a3cdeed-b508-5d92-abf8-82abd1f4d3f6'
+      rtype: entertainment
+    identify: {}
+  '3d8064d9-3809-5ada-9442-7a2a0eccbf03':
+    type: zigbee_connectivity
+    mac_address: '0x001788010cb92a01'
+    owner:
+      rid: '3c82622d-c93b-5640-ada9-262b9a26bb6e'
+      rtype: device
+    status: connected
+  '3eb251fe-f7cf-5eea-a2cc-df406125f1a7':
+    type: zigbee_connectivity
+    mac_address: '0xa4c1385caa10cc41'
+    owner:
+      rid: '5b357bd1-5a7f-5443-a2d5-57426f73f0f2'
+      rtype: device
+    status: connected
+  '40be7f83-68f8-51b5-a3c2-2654d37ade4f':
+    type: room
+    children:
+    - rid: '1a58ca4c-dd1b-53b3-affa-f4f690becd09'
+      rtype: device
+    - rid: '3c82622d-c93b-5640-ada9-262b9a26bb6e'
+      rtype: device
+    - rid: a217aa16-123a-53c8-9c63-a807cfe4c548
+      rtype: device
+    - rid: bae89e01-5994-5273-8cb5-0a15693f3dc3
+      rtype: device
+    - rid: d91de789-06d7-5bc4-909a-dcc39eeff21e
+      rtype: device
+    metadata:
+      name: Schlafzimmer
+      archetype: home
+    services:
+    - rid: '42cf27a3-5b99-54d9-8ad6-6ae3016b7da9'
+      rtype: grouped_light
+  '42cf27a3-5b99-54d9-8ad6-6ae3016b7da9':
+    type: grouped_light
+    alert: null
+    dimming: null
+    color: {}
+    color_temperature: {}
+    color_temperature_delta: {}
+    dimming_delta: {}
+    dynamics: {}
+    'on': null
+    owner:
+      rid: '40be7f83-68f8-51b5-a3c2-2654d37ade4f'
+      rtype: room
+    signaling: null
+  '42fa4e71-a146-58ab-bd8f-462ea74d5487':
+    type: entertainment
+    equalizer: false
+    owner:
+      rid: '3359efa1-265c-536a-a4d4-8f0bc0b728f9'
+      rtype: device
+    proxy: true
+    renderer: false
+    max_streams: 1
+  '454718f6-43a7-5fe1-9c24-04dd292dcf7b':
+    type: light
+    owner:
+      rid: '1a58ca4c-dd1b-53b3-affa-f4f690becd09'
+      rtype: device
+    metadata:
+      name: Kleiderschrank Spot
+      archetype: sultan_bulb
+      function: decorative
+    product_data:
+      function: decorative
+    alert:
+      action_values:
+      - breathe
+    color:
+      gamut:
+        red:
+          x: 0.6915
+          'y': 0.3083
+        green:
+          x: 0.17
+          'y': 0.7
+        blue:
+          x: 0.1532
+          'y': 0.0475
+      gamut_type: C
+      xy:
+        x: 0.31271
+        'y': 0.32902
+    color_temperature:
+      mirek: 370
+      mirek_schema:
+        mirek_minimum: 153
+        mirek_maximum: 500
+      mirek_valid: true
+    color_temperature_delta: {}
+    dimming:
+      brightness: 50.0
+      min_dim_level: 0.01
+    dimming_delta: {}
+    dynamics:
+      status: none
+      status_values:
+      - none
+      - dynamic_palette
+      speed: 0.0
+      speed_valid: false
+    effects:
+      status_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      status: no_effect
+      effect_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+    effects_v2:
+      action:
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+      status:
+        effect: no_effect
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+    service_id: 0
+    identify: {}
+    timed_effects:
+      status_values:
+      - no_effect
+      - sunrise
+      - sunset
+      status: no_effect
+      effect_values:
+      - no_effect
+      - sunrise
+      - sunset
+    mode: normal
+    'on':
+      'on': false
+    powerup:
+      preset: safety
+      configured: true
+      'on':
+        mode: 'on'
+        'on':
+          'on': true
+      dimming:
+        mode: dimming
+        dimming:
+          brightness: 100.0
+      color:
+        mode: color_temperature
+        color_temperature:
+          mirek: 366
+    signaling:
+      signal_values:
+      - no_signal
+      - on_off
+      - on_off_color
+      - alternating
+  '4664cbac-d65c-5a6d-82a7-5d4426f327b0':
+    type: zigbee_connectivity
+    mac_address: '0x0017880103410c03'
+    owner:
+      rid: '1a58ca4c-dd1b-53b3-affa-f4f690becd09'
+      rtype: device
+    status: connected
+  '477f0c4e-b973-5488-82b3-46d4e3ad8041':
+    type: taurus_7455
+    capabilities:
+    - sensor
+    - collector
+    - sync
+    owner:
+      rid: c6c5718b-db23-56c9-9f40-dfa3a0ff5630
+      rtype: device
+  '4aa82e5f-1e64-529b-9f57-006dfac3cdb6':
+    type: device
+    product_data:
+      model_id: LST002
+      manufacturer_name: Signify Netherlands B.V.
+      product_name: '915005106701'
+      product_archetype: hue_lightstrip
+      certified: true
+      software_version: '67.116.8'
+      hardware_platform_type: '100b-10f'
+    metadata:
+      name: Spüle
+      archetype: hue_lightstrip
+    services:
+    - rid: '616c66af-d20a-5fe6-b8d6-f11095176094'
+      rtype: zigbee_connectivity
+    - rid: '76b6ecd9-cae8-5d5f-92aa-6a78c0369071'
+      rtype: light
+    - rid: '81fde9b0-a57e-54dc-ad56-19c7d453ee3b'
+      rtype: taurus_7455
+    - rid: a6d22539-b818-5c89-8649-cf7186ab7173
+      rtype: entertainment
+    identify: {}
+  '4c983680-8173-5006-9761-3ac944f081ea':
+    type: zigbee_connectivity
+    mac_address: '0x001788010612a661'
+    owner:
+      rid: f43ffe21-e3d1-58ba-80a1-6324ee135ccb
+      rtype: device
+    status: connected
+  '4d742e2f-bf40-53f5-a33b-dce47aa5bec1':
+    type: light
+    owner:
+      rid: d7b11489-9df8-570d-b382-99d16f5015a8
+      rtype: device
+    metadata:
+      name: Spiegel
+      archetype: hue_lightstrip
+      function: decorative
+    product_data:
+      function: decorative
+    alert:
+      action_values:
+      - breathe
+    color:
+      gamut:
+        red:
+          x: 0.6915
+          'y': 0.3083
+        green:
+          x: 0.17
+          'y': 0.7
+        blue:
+          x: 0.1532
+          'y': 0.0475
+      gamut_type: C
+      xy:
+        x: 0.31271
+        'y': 0.32902
+    color_temperature:
+      mirek: 366
+      mirek_schema:
+        mirek_minimum: 153
+        mirek_maximum: 500
+      mirek_valid: true
+    color_temperature_delta: {}
+    dimming:
+      brightness: 5.118110236220472
+      min_dim_level: 0.01
+    dimming_delta: {}
+    dynamics:
+      status: none
+      status_values:
+      - none
+      - dynamic_palette
+      speed: 0.0
+      speed_valid: false
+    effects:
+      status_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      status: no_effect
+      effect_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+    effects_v2:
+      action:
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+      status:
+        effect: no_effect
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+    service_id: 0
+    identify: {}
+    timed_effects:
+      status_values:
+      - no_effect
+      - sunrise
+      - sunset
+      status: no_effect
+      effect_values:
+      - no_effect
+      - sunrise
+      - sunset
+    mode: normal
+    'on':
+      'on': false
+    powerup:
+      preset: safety
+      configured: true
+      'on':
+        mode: 'on'
+        'on':
+          'on': true
+      dimming:
+        mode: dimming
+        dimming:
+          brightness: 100.0
+      color:
+        mode: color_temperature
+        color_temperature:
+          mirek: 366
+    signaling:
+      signal_values:
+      - no_signal
+      - on_off
+      - on_off_color
+      - alternating
+  '536d558f-5293-5dde-a938-b759d05b99d3':
+    type: zigbee_connectivity
+    mac_address: '0x001788010f5e9451'
+    owner:
+      rid: '097f45bb-f18a-5098-8649-61f593b2273c'
+      rtype: device
+    status: connected
+  '563452b2-e21c-509c-9a74-2fe88957d76d':
+    type: room
+    children:
+    - rid: '097f45bb-f18a-5098-8649-61f593b2273c'
+      rtype: device
+    - rid: c0970dfd-a3bf-5b49-9f2a-d22648677e85
+      rtype: device
+    - rid: deeefb2d-d348-5f78-acda-a55406ce901b
+      rtype: device
+    metadata:
+      name: Wohnzimmer
+      archetype: home
+    services:
+    - rid: '1011146b-966b-5ddb-bef4-047477795edf'
+      rtype: grouped_light
+  '5636df1a-eeba-5edb-ba35-b5831504eedf':
+    type: taurus_7455
+    capabilities:
+    - sensor
+    - collector
+    - sync
+    owner:
+      rid: '3c82622d-c93b-5640-ada9-262b9a26bb6e'
+      rtype: device
+  '56af4b81-8c9e-51ed-939f-d961f0edf537':
+    type: entertainment
+    equalizer: true
+    owner:
+      rid: bae89e01-5994-5273-8cb5-0a15693f3dc3
+      rtype: device
+    proxy: true
+    renderer: true
+    renderer_reference:
+      rid: '5d895cf1-2505-511b-a735-eb3285decd39'
+      rtype: light
+    segments:
+      configurable: false
+      max_segments: 1
+      segments:
+      - length: 1
+        start: 0
+  '59268d26-7272-500d-8ae0-68560a0d23e5':
+    type: device
+    product_data:
+      model_id: BSB002
+      manufacturer_name: Signify Netherlands B.V.
+      product_name: Hue Bridge
+      product_archetype: bridge_v2
+      certified: true
+      software_version: '1.70.1970084010'
+    metadata:
+      name: Bifrost Bridge Home
+      archetype: bridge_v2
+    services:
+    - rid: '5d48067a-d50d-5fa5-a6d1-b10ca0cd4928'
+      rtype: bridge
+  '5a3cdeed-b508-5d92-abf8-82abd1f4d3f6':
+    type: entertainment
+    equalizer: true
+    owner:
+      rid: '3c82622d-c93b-5640-ada9-262b9a26bb6e'
+      rtype: device
+    proxy: true
+    renderer: true
+    renderer_reference:
+      rid: '186acbfb-ac98-566e-95c9-89444a3eb542'
+      rtype: light
+    segments:
+      configurable: false
+      max_segments: 1
+      segments:
+      - length: 1
+        start: 0
+  '5b357bd1-5a7f-5443-a2d5-57426f73f0f2':
+    type: device
+    product_data:
+      model_id: ZB-DL01
+      manufacturer_name: eWeLight
+      product_name: YSR-MINI-01_dimmer
+      product_archetype: unknown_archetype
+      certified: false
+      software_version: '2.0.1'
+    metadata:
+      name: Küchenschrank oben COB
+      archetype: unknown_archetype
+    services:
+    - rid: '3eb251fe-f7cf-5eea-a2cc-df406125f1a7'
+      rtype: zigbee_connectivity
+    - rid: '84d4845f-5b91-527e-8d30-3a33b9087609'
+      rtype: light
+    - rid: fb285591-652c-53c7-83df-875f35beabde
+      rtype: taurus_7455
+    - rid: fdbc8b2f-0146-5955-adf3-805f7312488b
+      rtype: entertainment
+    identify: {}
+  '5d21caf4-df81-5882-86e7-9372782c9db8':
+    type: grouped_light
+    alert: null
+    dimming: null
+    color: {}
+    color_temperature: {}
+    color_temperature_delta: {}
+    dimming_delta: {}
+    dynamics: {}
+    'on': null
+    owner:
+      rid: '810879c0-69fb-5f6b-8e61-7f93ce30efc4'
+      rtype: room
+    signaling: null
+  '5d48067a-d50d-5fa5-a6d1-b10ca0cd4928':
+    type: bridge
+    bridge_id: d83addfffed6f1de
+    owner:
+      rid: '3359efa1-265c-536a-a4d4-8f0bc0b728f9'
+      rtype: device
+    time_zone:
+      time_zone: Etc/UTC
+  '5d895cf1-2505-511b-a735-eb3285decd39':
+    type: light
+    owner:
+      rid: bae89e01-5994-5273-8cb5-0a15693f3dc3
+      rtype: device
+    metadata:
+      name: Bett
+      archetype: hue_lightstrip
+      function: decorative
+    product_data:
+      function: decorative
+    alert:
+      action_values:
+      - breathe
+    color:
+      gamut:
+        red:
+          x: 0.6915
+          'y': 0.3083
+        green:
+          x: 0.17
+          'y': 0.7
+        blue:
+          x: 0.1532
+          'y': 0.0475
+      gamut_type: C
+      xy:
+        x: 0.31271
+        'y': 0.32902
+    color_temperature:
+      mirek: 370
+      mirek_schema:
+        mirek_minimum: 153
+        mirek_maximum: 500
+      mirek_valid: true
+    color_temperature_delta: {}
+    dimming:
+      brightness: 50.0
+      min_dim_level: 0.01
+    dimming_delta: {}
+    dynamics:
+      status: none
+      status_values:
+      - none
+      - dynamic_palette
+      speed: 0.0
+      speed_valid: false
+    effects:
+      status_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      status: no_effect
+      effect_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+    effects_v2:
+      action:
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+      status:
+        effect: no_effect
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+    service_id: 0
+    identify: {}
+    timed_effects:
+      status_values:
+      - no_effect
+      - sunrise
+      - sunset
+      status: no_effect
+      effect_values:
+      - no_effect
+      - sunrise
+      - sunset
+    mode: normal
+    'on':
+      'on': false
+    powerup:
+      preset: safety
+      configured: true
+      'on':
+        mode: 'on'
+        'on':
+          'on': true
+      dimming:
+        mode: dimming
+        dimming:
+          brightness: 100.0
+      color:
+        mode: color_temperature
+        color_temperature:
+          mirek: 366
+    signaling:
+      signal_values:
+      - no_signal
+      - on_off
+      - on_off_color
+      - alternating
+  '5db3a90a-d76f-59e0-a25f-72f2eea796bc':
+    type: zigbee_connectivity
+    mac_address: '0x001788010612a42e'
+    owner:
+      rid: '1429c942-0367-5f26-973a-2d453f83f54e'
+      rtype: device
+    status: connected
+  '6146a76d-e17b-5b30-b84c-06545a96e95a':
+    type: zigbee_connectivity
+    mac_address: '0xa4c138dd472cda16'
+    owner:
+      rid: c0970dfd-a3bf-5b49-9f2a-d22648677e85
+      rtype: device
+    status: connected
+  '616c66af-d20a-5fe6-b8d6-f11095176094':
+    type: zigbee_connectivity
+    mac_address: '0x00178801011d2f00'
+    owner:
+      rid: '4aa82e5f-1e64-529b-9f57-006dfac3cdb6'
+      rtype: device
+    status: connected
+  '6447c834-4ce6-5540-ab8a-1dbd300e14a0':
+    type: light
+    owner:
+      rid: '74ce320e-d67a-5f64-b16f-53a1db41c8da'
+      rtype: device
+    metadata:
+      name: Küche Schrank
+      archetype: unknown_archetype
+      function: decorative
+    product_data:
+      function: decorative
+    alert:
+      action_values:
+      - breathe
+    color:
+      gamut:
+        red:
+          x: 0.6915
+          'y': 0.3083
+        green:
+          x: 0.17
+          'y': 0.7
+        blue:
+          x: 0.1532
+          'y': 0.0475
+      gamut_type: C
+      xy:
+        x: 0.31271
+        'y': 0.32902
+    color_temperature:
+      mirek: 366
+      mirek_schema:
+        mirek_minimum: 150
+        mirek_maximum: 500
+      mirek_valid: true
+    color_temperature_delta: {}
+    dimming:
+      brightness: 100.0
+      min_dim_level: 0.01
+    dimming_delta: {}
+    dynamics:
+      status: none
+      status_values:
+      - none
+      - dynamic_palette
+      speed: 0.0
+      speed_valid: false
+    effects:
+      status_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      status: no_effect
+      effect_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+    effects_v2:
+      action:
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+      status:
+        effect: no_effect
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+    service_id: 0
+    identify: {}
+    timed_effects:
+      status_values:
+      - no_effect
+      - sunrise
+      - sunset
+      status: no_effect
+      effect_values:
+      - no_effect
+      - sunrise
+      - sunset
+    mode: normal
+    'on':
+      'on': true
+    powerup:
+      preset: safety
+      configured: true
+      'on':
+        mode: 'on'
+        'on':
+          'on': true
+      dimming:
+        mode: dimming
+        dimming:
+          brightness: 100.0
+      color:
+        mode: color_temperature
+        color_temperature:
+          mirek: 366
+    signaling:
+      signal_values:
+      - no_signal
+      - on_off
+      - on_off_color
+      - alternating
+  '6455655b-a613-562d-ba5d-88daa76f94fc':
+    type: entertainment
+    equalizer: true
+    owner:
+      rid: '1429c942-0367-5f26-973a-2d453f83f54e'
+      rtype: device
+    proxy: true
+    renderer: true
+    renderer_reference:
+      rid: c24685fd-0d5d-58e5-a354-c4ddd3e1c5f5
+      rtype: light
+    segments:
+      configurable: false
+      max_segments: 1
+      segments:
+      - length: 1
+        start: 0
+  '6652b045-0d56-5c61-9f9d-0d8deb0d3142':
+    type: grouped_light
+    alert:
+      action_values:
+      - breathe
+    dimming:
+      brightness: 8.7
+    color: {}
+    color_temperature: {}
+    color_temperature_delta: {}
+    dimming_delta: {}
+    dynamics: {}
+    'on':
+      'on': true
+    owner:
+      rid: e09b6245-c033-51d0-b673-ca56ca53147c
+      rtype: bridge_home
+    signaling:
+      signal_values:
+      - alternating
+      - no_signal
+      - on_off
+      - on_off_color
+  '6c3aa8ee-e35f-582e-a167-608951e572f5':
+    type: taurus_7455
+    capabilities:
+    - sensor
+    - collector
+    - sync
+    owner:
+      rid: d91de789-06d7-5bc4-909a-dcc39eeff21e
+      rtype: device
+  '6d73ed4e-6ae6-5b38-b7b4-6f76964d3720':
+    type: entertainment
+    equalizer: true
+    owner:
+      rid: d7b11489-9df8-570d-b382-99d16f5015a8
+      rtype: device
+    proxy: true
+    renderer: true
+    renderer_reference:
+      rid: '4d742e2f-bf40-53f5-a33b-dce47aa5bec1'
+      rtype: light
+    segments:
+      configurable: false
+      max_segments: 1
+      segments:
+      - length: 1
+        start: 0
+  '6f87e8dd-353f-5a18-a2d6-e0465d5733d1':
+    type: taurus_7455
+    capabilities:
+    - sensor
+    - collector
+    - sync
+    owner:
+      rid: bae89e01-5994-5273-8cb5-0a15693f3dc3
+      rtype: device
+  '74ce320e-d67a-5f64-b16f-53a1db41c8da':
+    type: device
+    product_data:
+      model_id: LCL001
+      manufacturer_name: Signify Netherlands B.V.
+      product_name: '8718699703424'
+      product_archetype: unknown_archetype
+      certified: true
+      software_version: '1.122.8'
+    metadata:
+      name: Küche Schrank
+      archetype: unknown_archetype
+    services:
+    - rid: '145a7f6b-7b37-5d0d-95fd-3b18a0072323'
+      rtype: entertainment
+    - rid: '2c1a7c3c-d5a5-5e78-91dc-1f7272d276fb'
+      rtype: zigbee_connectivity
+    - rid: '6447c834-4ce6-5540-ab8a-1dbd300e14a0'
+      rtype: light
+    - rid: f5f34b96-5ee4-5f14-8d90-8a6ebd3f412b
+      rtype: taurus_7455
+    identify: {}
+  '76b6ecd9-cae8-5d5f-92aa-6a78c0369071':
+    type: light
+    owner:
+      rid: '4aa82e5f-1e64-529b-9f57-006dfac3cdb6'
+      rtype: device
+    metadata:
+      name: Spüle
+      archetype: hue_lightstrip
+      function: decorative
+    product_data:
+      function: decorative
+    alert:
+      action_values:
+      - breathe
+    color:
+      gamut:
+        red:
+          x: 0.6915
+          'y': 0.3083
+        green:
+          x: 0.17
+          'y': 0.7
+        blue:
+          x: 0.1532
+          'y': 0.0475
+      gamut_type: C
+      xy:
+        x: 0.31271
+        'y': 0.32902
+    color_temperature:
+      mirek: 370
+      mirek_schema:
+        mirek_minimum: 153
+        mirek_maximum: 500
+      mirek_valid: true
+    color_temperature_delta: {}
+    dimming:
+      brightness: 100.0
+      min_dim_level: 0.01
+    dimming_delta: {}
+    dynamics:
+      status: none
+      status_values:
+      - none
+      - dynamic_palette
+      speed: 0.0
+      speed_valid: false
+    effects:
+      status_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      status: no_effect
+      effect_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+    effects_v2:
+      action:
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+      status:
+        effect: no_effect
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+    service_id: 0
+    identify: {}
+    timed_effects:
+      status_values:
+      - no_effect
+      - sunrise
+      - sunset
+      status: no_effect
+      effect_values:
+      - no_effect
+      - sunrise
+      - sunset
+    mode: normal
+    'on':
+      'on': true
+    powerup:
+      preset: safety
+      configured: true
+      'on':
+        mode: 'on'
+        'on':
+          'on': true
+      dimming:
+        mode: dimming
+        dimming:
+          brightness: 100.0
+      color:
+        mode: color_temperature
+        color_temperature:
+          mirek: 366
+    signaling:
+      signal_values:
+      - no_signal
+      - on_off
+      - on_off_color
+      - alternating
+  '7c1e1d93-f9ed-5970-8b65-d3e61069269c':
+    type: entertainment
+    equalizer: true
+    owner:
+      rid: '1a58ca4c-dd1b-53b3-affa-f4f690becd09'
+      rtype: device
+    proxy: true
+    renderer: true
+    renderer_reference:
+      rid: '454718f6-43a7-5fe1-9c24-04dd292dcf7b'
+      rtype: light
+    segments:
+      configurable: false
+      max_segments: 1
+      segments:
+      - length: 1
+        start: 0
+  '7ed434ee-bcf3-5a9d-87db-c7c5884b2eb4':
+    type: entertainment
+    equalizer: true
+    owner:
+      rid: c0970dfd-a3bf-5b49-9f2a-d22648677e85
+      rtype: device
+    proxy: true
+    renderer: true
+    renderer_reference:
+      rid: fe091fad-046f-54bc-8520-0838d8accfb9
+      rtype: light
+    segments:
+      configurable: false
+      max_segments: 1
+      segments:
+      - length: 1
+        start: 0
+  '810879c0-69fb-5f6b-8e61-7f93ce30efc4':
+    type: room
+    children:
+    - rid: '4aa82e5f-1e64-529b-9f57-006dfac3cdb6'
+      rtype: device
+    - rid: '5b357bd1-5a7f-5443-a2d5-57426f73f0f2'
+      rtype: device
+    - rid: '74ce320e-d67a-5f64-b16f-53a1db41c8da'
+      rtype: device
+    - rid: c6c5718b-db23-56c9-9f40-dfa3a0ff5630
+      rtype: device
+    - rid: deeefb2d-d348-5f78-acda-a55406ce901b
+      rtype: device
+    metadata:
+      name: Küche
+      archetype: home
+    services:
+    - rid: '5d21caf4-df81-5882-86e7-9372782c9db8'
+      rtype: grouped_light
+  '81fde9b0-a57e-54dc-ad56-19c7d453ee3b':
+    type: taurus_7455
+    capabilities:
+    - sensor
+    - collector
+    - sync
+    owner:
+      rid: '4aa82e5f-1e64-529b-9f57-006dfac3cdb6'
+      rtype: device
+  '83dbe0de-d1bb-5849-83c8-3f866355c220':
+    type: light
+    owner:
+      rid: deeefb2d-d348-5f78-acda-a55406ce901b
+      rtype: device
+    metadata:
+      name: Wohnzimmer Kugel
+      archetype: unknown_archetype
+      function: decorative
+    product_data:
+      function: decorative
+    alert:
+      action_values:
+      - breathe
+    color:
+      gamut:
+        red:
+          x: 0.6915
+          'y': 0.3083
+        green:
+          x: 0.17
+          'y': 0.7
+        blue:
+          x: 0.1532
+          'y': 0.0475
+      gamut_type: C
+      xy:
+        x: 0.31271
+        'y': 0.32902
+    color_temperature_delta: {}
+    dimming:
+      brightness: 100.0
+      min_dim_level: 0.01
+    dimming_delta: {}
+    dynamics:
+      status: none
+      status_values:
+      - none
+      - dynamic_palette
+      speed: 0.0
+      speed_valid: false
+    effects:
+      status_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      status: no_effect
+      effect_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+    effects_v2:
+      action:
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+      status:
+        effect: no_effect
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+    service_id: 0
+    identify: {}
+    timed_effects:
+      status_values:
+      - no_effect
+      - sunrise
+      - sunset
+      status: no_effect
+      effect_values:
+      - no_effect
+      - sunrise
+      - sunset
+    mode: normal
+    'on':
+      'on': true
+    powerup:
+      preset: safety
+      configured: true
+      'on':
+        mode: 'on'
+        'on':
+          'on': true
+      dimming:
+        mode: dimming
+        dimming:
+          brightness: 100.0
+      color:
+        mode: color_temperature
+        color_temperature:
+          mirek: 366
+    signaling:
+      signal_values:
+      - no_signal
+      - on_off
+      - on_off_color
+      - alternating
+  '84d4845f-5b91-527e-8d30-3a33b9087609':
+    type: light
+    owner:
+      rid: '5b357bd1-5a7f-5443-a2d5-57426f73f0f2'
+      rtype: device
+    metadata:
+      name: Küchenschrank oben COB
+      archetype: unknown_archetype
+      function: decorative
+    product_data:
+      function: decorative
+    alert:
+      action_values:
+      - breathe
+    color_temperature_delta: {}
+    dimming:
+      brightness: 100.0
+      min_dim_level: 0.01
+    dimming_delta: {}
+    dynamics:
+      status: none
+      status_values:
+      - none
+      - dynamic_palette
+      speed: 0.0
+      speed_valid: false
+    service_id: 0
+    identify: {}
+    timed_effects:
+      status_values:
+      - no_effect
+      - sunrise
+      - sunset
+      status: no_effect
+      effect_values:
+      - no_effect
+      - sunrise
+      - sunset
+    mode: normal
+    'on':
+      'on': true
+    powerup:
+      preset: safety
+      configured: true
+      'on':
+        mode: 'on'
+        'on':
+          'on': true
+      dimming:
+        mode: dimming
+        dimming:
+          brightness: 100.0
+      color:
+        mode: color_temperature
+        color_temperature:
+          mirek: 366
+    signaling:
+      signal_values:
+      - no_signal
+      - on_off
+      - on_off_color
+      - alternating
+  '8ad9e309-8b85-536c-8529-604dc18292c3':
+    type: taurus_7455
+    capabilities:
+    - sensor
+    - collector
+    - sync
+    owner:
+      rid: '097f45bb-f18a-5098-8649-61f593b2273c'
+      rtype: device
+  '8f18e527-9862-5364-999c-206573d66422':
+    type: entertainment
+    equalizer: true
+    owner:
+      rid: '1746edfc-9e57-5835-a600-8117cb424fe6'
+      rtype: device
+    proxy: true
+    renderer: true
+    renderer_reference:
+      rid: '3349bed3-7040-504d-bc33-3c8310587487'
+      rtype: light
+    segments:
+      configurable: false
+      max_segments: 1
+      segments:
+      - length: 1
+        start: 0
+  '92dec904-5e8a-5caa-bdef-be9d5f88953f':
+    type: entertainment
+    equalizer: true
+    owner:
+      rid: a217aa16-123a-53c8-9c63-a807cfe4c548
+      rtype: device
+    proxy: true
+    renderer: true
+    renderer_reference:
+      rid: d703e3c7-5bb2-5b73-95a2-9d36f1fe6d62
+      rtype: light
+    segments:
+      configurable: false
+      max_segments: 1
+      segments:
+      - length: 1
+        start: 0
+  a217aa16-123a-53c8-9c63-a807cfe4c548:
+    type: device
+    product_data:
+      model_id: LST002
+      manufacturer_name: Signify Netherlands B.V.
+      product_name: '915005106701'
+      product_archetype: hue_lightstrip
+      certified: true
+      software_version: '1.116.8'
+      hardware_platform_type: '100b-10f'
+    metadata:
+      name: Bett Seite
+      archetype: hue_lightstrip
+    services:
+    - rid: '92dec904-5e8a-5caa-bdef-be9d5f88953f'
+      rtype: entertainment
+    - rid: b3431572-b9b0-5442-8486-405253e7e1ce
+      rtype: zigbee_connectivity
+    - rid: d703e3c7-5bb2-5b73-95a2-9d36f1fe6d62
+      rtype: light
+    - rid: f6d000c2-f310-5661-b9dd-eee6ecbda7e2
+      rtype: taurus_7455
+    identify: {}
+  a6d22539-b818-5c89-8649-cf7186ab7173:
+    type: entertainment
+    equalizer: true
+    owner:
+      rid: '4aa82e5f-1e64-529b-9f57-006dfac3cdb6'
+      rtype: device
+    proxy: true
+    renderer: true
+    renderer_reference:
+      rid: '76b6ecd9-cae8-5d5f-92aa-6a78c0369071'
+      rtype: light
+    segments:
+      configurable: false
+      max_segments: 1
+      segments:
+      - length: 1
+        start: 0
+  b3431572-b9b0-5442-8486-405253e7e1ce:
+    type: zigbee_connectivity
+    mac_address: '0x0017880103f5368a'
+    owner:
+      rid: a217aa16-123a-53c8-9c63-a807cfe4c548
+      rtype: device
+    status: connected
+  bae89e01-5994-5273-8cb5-0a15693f3dc3:
+    type: device
+    product_data:
+      model_id: LST002
+      manufacturer_name: Signify Netherlands B.V.
+      product_name: '915005106701'
+      product_archetype: hue_lightstrip
+      certified: true
+      software_version: '1.116.8'
+      hardware_platform_type: '100b-10f'
+    metadata:
+      name: Bett
+      archetype: hue_lightstrip
+    services:
+    - rid: '35bb4997-40d4-56e7-8d8b-64401109cb5f'
+      rtype: zigbee_connectivity
+    - rid: '56af4b81-8c9e-51ed-939f-d961f0edf537'
+      rtype: entertainment
+    - rid: '5d895cf1-2505-511b-a735-eb3285decd39'
+      rtype: light
+    - rid: '6f87e8dd-353f-5a18-a2d6-e0465d5733d1'
+      rtype: taurus_7455
+    identify: {}
+  bc88e9b6-f942-5f79-9cf7-8c2cbaf6503d:
+    type: entertainment
+    equalizer: true
+    owner:
+      rid: c6c5718b-db23-56c9-9f40-dfa3a0ff5630
+      rtype: device
+    proxy: true
+    renderer: true
+    renderer_reference:
+      rid: f53d34ad-40f7-5045-93fc-6a3afbf09df5
+      rtype: light
+    segments:
+      configurable: false
+      max_segments: 1
+      segments:
+      - length: 1
+        start: 0
+  c0970dfd-a3bf-5b49-9f2a-d22648677e85:
+    type: device
+    product_data:
+      model_id: ZB-DL01
+      manufacturer_name: eWeLight
+      product_name: YSR-MINI-01_dimmer
+      product_archetype: unknown_archetype
+      certified: false
+      software_version: '2.0.1'
+    metadata:
+      name: Sofa COB
+      archetype: unknown_archetype
+    services:
+    - rid: '20501536-5aec-5414-bb9e-b5e9f8054ae6'
+      rtype: taurus_7455
+    - rid: '6146a76d-e17b-5b30-b84c-06545a96e95a'
+      rtype: zigbee_connectivity
+    - rid: '7ed434ee-bcf3-5a9d-87db-c7c5884b2eb4'
+      rtype: entertainment
+    - rid: fe091fad-046f-54bc-8520-0838d8accfb9
+      rtype: light
+    identify: {}
+  c24685fd-0d5d-58e5-a354-c4ddd3e1c5f5:
+    type: light
+    owner:
+      rid: '1429c942-0367-5f26-973a-2d453f83f54e'
+      rtype: device
+    metadata:
+      name: play2
+      archetype: hue_play
+      function: decorative
+    product_data:
+      function: decorative
+    alert:
+      action_values:
+      - breathe
+    color:
+      gamut:
+        red:
+          x: 0.6915
+          'y': 0.3083
+        green:
+          x: 0.17
+          'y': 0.7
+        blue:
+          x: 0.1532
+          'y': 0.0475
+      gamut_type: C
+      xy:
+        x: 0.31271
+        'y': 0.32902
+    color_temperature:
+      mirek: null
+      mirek_schema:
+        mirek_minimum: 153
+        mirek_maximum: 500
+      mirek_valid: true
+    color_temperature_delta: {}
+    dimming:
+      brightness: 100.0
+      min_dim_level: 0.01
+    dimming_delta: {}
+    dynamics:
+      status: none
+      status_values:
+      - none
+      - dynamic_palette
+      speed: 0.0
+      speed_valid: false
+    service_id: 0
+    identify: {}
+    timed_effects:
+      status_values:
+      - no_effect
+      - sunrise
+      - sunset
+      status: no_effect
+      effect_values:
+      - no_effect
+      - sunrise
+      - sunset
+    mode: normal
+    'on':
+      'on': false
+    powerup:
+      preset: safety
+      configured: true
+      'on':
+        mode: 'on'
+        'on':
+          'on': true
+      dimming:
+        mode: dimming
+        dimming:
+          brightness: 100.0
+      color:
+        mode: color_temperature
+        color_temperature:
+          mirek: 366
+    signaling:
+      signal_values:
+      - no_signal
+      - on_off
+      - on_off_color
+      - alternating
+  c68d48ce-ddc1-5f53-a8b6-6de72e8614b8:
+    type: entertainment
+    equalizer: true
+    owner:
+      rid: d91de789-06d7-5bc4-909a-dcc39eeff21e
+      rtype: device
+    proxy: true
+    renderer: true
+    renderer_reference:
+      rid: d2b54a60-3026-586f-a996-8e8261553ddd
+      rtype: light
+    segments:
+      configurable: false
+      max_segments: 1
+      segments:
+      - length: 1
+        start: 0
+  c6c5718b-db23-56c9-9f40-dfa3a0ff5630:
+    type: device
+    product_data:
+      model_id: LCL001
+      manufacturer_name: Signify Netherlands B.V.
+      product_name: '8718699703424'
+      product_archetype: unknown_archetype
+      certified: true
+      software_version: '1.122.8'
+    metadata:
+      name: Herd Neu
+      archetype: unknown_archetype
+    services:
+    - rid: '16f8a57a-a795-5535-b224-5f3bb68b1dc5'
+      rtype: zigbee_connectivity
+    - rid: '477f0c4e-b973-5488-82b3-46d4e3ad8041'
+      rtype: taurus_7455
+    - rid: bc88e9b6-f942-5f79-9cf7-8c2cbaf6503d
+      rtype: entertainment
+    - rid: f53d34ad-40f7-5045-93fc-6a3afbf09df5
+      rtype: light
+    identify: {}
+  c8160e6c-bd1c-5b18-9754-0a5dc44b1bf2:
+    type: light
+    owner:
+      rid: f43ffe21-e3d1-58ba-80a1-6324ee135ccb
+      rtype: device
+    metadata:
+      name: play1
+      archetype: hue_play
+      function: decorative
+    product_data:
+      function: decorative
+    alert:
+      action_values:
+      - breathe
+    color:
+      gamut:
+        red:
+          x: 0.6915
+          'y': 0.3083
+        green:
+          x: 0.17
+          'y': 0.7
+        blue:
+          x: 0.1532
+          'y': 0.0475
+      gamut_type: C
+      xy:
+        x: 0.31271
+        'y': 0.32902
+    color_temperature:
+      mirek: null
+      mirek_schema:
+        mirek_minimum: 153
+        mirek_maximum: 500
+      mirek_valid: true
+    color_temperature_delta: {}
+    dimming:
+      brightness: 100.0
+      min_dim_level: 0.01
+    dimming_delta: {}
+    dynamics:
+      status: none
+      status_values:
+      - none
+      - dynamic_palette
+      speed: 0.0
+      speed_valid: false
+    service_id: 0
+    identify: {}
+    timed_effects:
+      status_values:
+      - no_effect
+      - sunrise
+      - sunset
+      status: no_effect
+      effect_values:
+      - no_effect
+      - sunrise
+      - sunset
+    mode: normal
+    'on':
+      'on': false
+    powerup:
+      preset: safety
+      configured: true
+      'on':
+        mode: 'on'
+        'on':
+          'on': true
+      dimming:
+        mode: dimming
+        dimming:
+          brightness: 100.0
+      color:
+        mode: color_temperature
+        color_temperature:
+          mirek: 366
+    signaling:
+      signal_values:
+      - no_signal
+      - on_off
+      - on_off_color
+      - alternating
+  d2b54a60-3026-586f-a996-8e8261553ddd:
+    type: light
+    owner:
+      rid: d91de789-06d7-5bc4-909a-dcc39eeff21e
+      rtype: device
+    metadata:
+      name: Kleiderschrank
+      archetype: unknown_archetype
+      function: decorative
+    product_data:
+      function: decorative
+    alert:
+      action_values:
+      - breathe
+    color:
+      gamut:
+        red:
+          x: 0.6915
+          'y': 0.3083
+        green:
+          x: 0.17
+          'y': 0.7
+        blue:
+          x: 0.1532
+          'y': 0.0475
+      gamut_type: C
+      xy:
+        x: 0.31271
+        'y': 0.32902
+    color_temperature:
+      mirek: 370
+      mirek_schema:
+        mirek_minimum: 150
+        mirek_maximum: 500
+      mirek_valid: true
+    color_temperature_delta: {}
+    dimming:
+      brightness: 50.0
+      min_dim_level: 0.01
+    dimming_delta: {}
+    dynamics:
+      status: none
+      status_values:
+      - none
+      - dynamic_palette
+      speed: 0.0
+      speed_valid: false
+    effects:
+      status_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      status: no_effect
+      effect_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+    effects_v2:
+      action:
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+      status:
+        effect: no_effect
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+    service_id: 0
+    identify: {}
+    timed_effects:
+      status_values:
+      - no_effect
+      - sunrise
+      - sunset
+      status: no_effect
+      effect_values:
+      - no_effect
+      - sunrise
+      - sunset
+    mode: normal
+    'on':
+      'on': false
+    powerup:
+      preset: safety
+      configured: true
+      'on':
+        mode: 'on'
+        'on':
+          'on': true
+      dimming:
+        mode: dimming
+        dimming:
+          brightness: 100.0
+      color:
+        mode: color_temperature
+        color_temperature:
+          mirek: 366
+    signaling:
+      signal_values:
+      - no_signal
+      - on_off
+      - on_off_color
+      - alternating
+  d3429b61-7379-50b3-8cb1-ba61b3b22aa8:
+    type: zigbee_connectivity
+    channel:
+      status: set
+      value: channel_25
+    mac_address: '11:22:33:44:55:66:77:88'
+    owner:
+      rid: '3359efa1-265c-536a-a4d4-8f0bc0b728f9'
+      rtype: device
+    status: connected
+  d703e3c7-5bb2-5b73-95a2-9d36f1fe6d62:
+    type: light
+    owner:
+      rid: a217aa16-123a-53c8-9c63-a807cfe4c548
+      rtype: device
+    metadata:
+      name: Bett Seite
+      archetype: hue_lightstrip
+      function: decorative
+    product_data:
+      function: decorative
+    alert:
+      action_values:
+      - breathe
+    color:
+      gamut:
+        red:
+          x: 0.6915
+          'y': 0.3083
+        green:
+          x: 0.17
+          'y': 0.7
+        blue:
+          x: 0.1532
+          'y': 0.0475
+      gamut_type: C
+      xy:
+        x: 0.31271
+        'y': 0.32902
+    color_temperature:
+      mirek: 370
+      mirek_schema:
+        mirek_minimum: 153
+        mirek_maximum: 500
+      mirek_valid: true
+    color_temperature_delta: {}
+    dimming:
+      brightness: 50.0
+      min_dim_level: 0.01
+    dimming_delta: {}
+    dynamics:
+      status: none
+      status_values:
+      - none
+      - dynamic_palette
+      speed: 0.0
+      speed_valid: false
+    effects:
+      status_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      status: no_effect
+      effect_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+    effects_v2:
+      action:
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+      status:
+        effect: no_effect
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+    service_id: 0
+    identify: {}
+    timed_effects:
+      status_values:
+      - no_effect
+      - sunrise
+      - sunset
+      status: no_effect
+      effect_values:
+      - no_effect
+      - sunrise
+      - sunset
+    mode: normal
+    'on':
+      'on': false
+    powerup:
+      preset: safety
+      configured: true
+      'on':
+        mode: 'on'
+        'on':
+          'on': true
+      dimming:
+        mode: dimming
+        dimming:
+          brightness: 100.0
+      color:
+        mode: color_temperature
+        color_temperature:
+          mirek: 366
+    signaling:
+      signal_values:
+      - no_signal
+      - on_off
+      - on_off_color
+      - alternating
+  d7b11489-9df8-570d-b382-99d16f5015a8:
+    type: device
+    product_data:
+      model_id: LST002
+      manufacturer_name: Signify Netherlands B.V.
+      product_name: '915005106701'
+      product_archetype: hue_lightstrip
+      certified: true
+      software_version: '67.116.8'
+      hardware_platform_type: '100b-10f'
+    metadata:
+      name: Spiegel
+      archetype: hue_lightstrip
+    services:
+    - rid: '4d742e2f-bf40-53f5-a33b-dce47aa5bec1'
+      rtype: light
+    - rid: '6d73ed4e-6ae6-5b38-b7b4-6f76964d3720'
+      rtype: entertainment
+    - rid: e02f9cf3-686b-535f-a1ad-71aab9160b7b
+      rtype: zigbee_connectivity
+    - rid: ecd304b0-c5ea-52a3-a55f-a0448d9df75f
+      rtype: taurus_7455
+    identify: {}
+  d80dd6d8-e87e-5b6b-a098-dd0afa2750fe:
+    type: zigbee_connectivity
+    mac_address: '0x0017880109d17ef3'
+    owner:
+      rid: '1746edfc-9e57-5835-a600-8117cb424fe6'
+      rtype: device
+    status: connected
+  d91de789-06d7-5bc4-909a-dcc39eeff21e:
+    type: device
+    product_data:
+      model_id: LCL001
+      manufacturer_name: Signify Netherlands B.V.
+      product_name: '8718699703424'
+      product_archetype: unknown_archetype
+      certified: true
+      software_version: '1.122.8'
+    metadata:
+      name: Kleiderschrank
+      archetype: unknown_archetype
+    services:
+    - rid: '03dad2dc-b4ef-58bc-90d2-d0db8fc7f4f7'
+      rtype: zigbee_connectivity
+    - rid: '6c3aa8ee-e35f-582e-a167-608951e572f5'
+      rtype: taurus_7455
+    - rid: c68d48ce-ddc1-5f53-a8b6-6de72e8614b8
+      rtype: entertainment
+    - rid: d2b54a60-3026-586f-a996-8e8261553ddd
+      rtype: light
+    identify: {}
+  deeefb2d-d348-5f78-acda-a55406ce901b:
+    type: device
+    product_data:
+      model_id: LLC010
+      manufacturer_name: Signify Netherlands B.V.
+      product_name: '7199960PH'
+      product_archetype: unknown_archetype
+      certified: true
+      software_version: '67.116.10'
+    metadata:
+      name: Wohnzimmer Kugel
+      archetype: unknown_archetype
+    services:
+    - rid: '044e92dc-fad0-50c0-935c-8f0a8b34d425'
+      rtype: zigbee_connectivity
+    - rid: '1e0b6e94-cc05-5fb9-8bf4-ddf5acbe850f'
+      rtype: entertainment
+    - rid: '1f3fa946-80f6-51ec-9564-1eceec99e0f7'
+      rtype: taurus_7455
+    - rid: '83dbe0de-d1bb-5849-83c8-3f866355c220'
+      rtype: light
+    identify: {}
+  e02f9cf3-686b-535f-a1ad-71aab9160b7b:
+    type: zigbee_connectivity
+    mac_address: '0x00178801012122d3'
+    owner:
+      rid: d7b11489-9df8-570d-b382-99d16f5015a8
+      rtype: device
+    status: connected
+  e09b6245-c033-51d0-b673-ca56ca53147c:
+    type: bridge_home
+    children:
+    - rid: '3359efa1-265c-536a-a4d4-8f0bc0b728f9'
+      rtype: device
+    - rid: '40be7f83-68f8-51b5-a3c2-2654d37ade4f'
+      rtype: room
+    - rid: '563452b2-e21c-509c-9a74-2fe88957d76d'
+      rtype: room
+    - rid: '810879c0-69fb-5f6b-8e61-7f93ce30efc4'
+      rtype: room
+    services:
+    - rid: '6652b045-0d56-5c61-9f9d-0d8deb0d3142'
+      rtype: grouped_light
+  e228deef-915e-57f5-85ff-286ec07f8289:
+    type: taurus_7455
+    capabilities:
+    - sensor
+    - collector
+    - sync
+    owner:
+      rid: '1429c942-0367-5f26-973a-2d453f83f54e'
+      rtype: device
+  ecd304b0-c5ea-52a3-a55f-a0448d9df75f:
+    type: taurus_7455
+    capabilities:
+    - sensor
+    - collector
+    - sync
+    owner:
+      rid: d7b11489-9df8-570d-b382-99d16f5015a8
+      rtype: device
+  ee4dd80e-3851-5596-a473-367236be10c1:
+    type: light
+    owner:
+      rid: '097f45bb-f18a-5098-8649-61f593b2273c'
+      rtype: device
+    metadata:
+      name: Sofa
+      archetype: unknown_archetype
+      function: decorative
+    product_data:
+      function: decorative
+    alert:
+      action_values:
+      - breathe
+    color:
+      gamut:
+        red:
+          x: 0.6915
+          'y': 0.3083
+        green:
+          x: 0.17
+          'y': 0.7
+        blue:
+          x: 0.1532
+          'y': 0.0475
+      gamut_type: C
+      xy:
+        x: 0.31271
+        'y': 0.32902
+    color_temperature:
+      mirek: null
+      mirek_schema:
+        mirek_minimum: 153
+        mirek_maximum: 500
+      mirek_valid: true
+    color_temperature_delta: {}
+    dimming:
+      brightness: 100.0
+      min_dim_level: 0.01
+    dimming_delta: {}
+    dynamics:
+      status: none
+      status_values:
+      - none
+      - dynamic_palette
+      speed: 0.0
+      speed_valid: false
+    effects:
+      status_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      status: no_effect
+      effect_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+    effects_v2:
+      action:
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+      status:
+        effect: no_effect
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+    service_id: 0
+    identify: {}
+    timed_effects:
+      status_values:
+      - no_effect
+      - sunrise
+      - sunset
+      status: no_effect
+      effect_values:
+      - no_effect
+      - sunrise
+      - sunset
+    mode: normal
+    'on':
+      'on': false
+    powerup:
+      preset: safety
+      configured: true
+      'on':
+        mode: 'on'
+        'on':
+          'on': true
+      dimming:
+        mode: dimming
+        dimming:
+          brightness: 100.0
+      color:
+        mode: color_temperature
+        color_temperature:
+          mirek: 366
+    signaling:
+      signal_values:
+      - no_signal
+      - on_off
+      - on_off_color
+      - alternating
+  f0bace5e-da22-5bc7-8856-72b2c3078df5:
+    type: taurus_7455
+    capabilities:
+    - sensor
+    - collector
+    - sync
+    owner:
+      rid: f43ffe21-e3d1-58ba-80a1-6324ee135ccb
+      rtype: device
+  f43ffe21-e3d1-58ba-80a1-6324ee135ccb:
+    type: device
+    product_data:
+      model_id: LCT024
+      manufacturer_name: Philips
+      product_name: '915005733701'
+      product_archetype: hue_play
+      certified: false
+      software_version: '1.116.8'
+      hardware_platform_type: '100b-114'
+    metadata:
+      name: play1
+      archetype: hue_play
+    services:
+    - rid: '12f45c67-b50d-5f43-937d-237c342f9103'
+      rtype: entertainment
+    - rid: '4c983680-8173-5006-9761-3ac944f081ea'
+      rtype: zigbee_connectivity
+    - rid: c8160e6c-bd1c-5b18-9754-0a5dc44b1bf2
+      rtype: light
+    - rid: f0bace5e-da22-5bc7-8856-72b2c3078df5
+      rtype: taurus_7455
+    identify: {}
+  f53d34ad-40f7-5045-93fc-6a3afbf09df5:
+    type: light
+    owner:
+      rid: c6c5718b-db23-56c9-9f40-dfa3a0ff5630
+      rtype: device
+    metadata:
+      name: Herd Neu
+      archetype: unknown_archetype
+      function: decorative
+    product_data:
+      function: decorative
+    alert:
+      action_values:
+      - breathe
+    color:
+      gamut:
+        red:
+          x: 0.6915
+          'y': 0.3083
+        green:
+          x: 0.17
+          'y': 0.7
+        blue:
+          x: 0.1532
+          'y': 0.0475
+      gamut_type: C
+      xy:
+        x: 0.31271
+        'y': 0.32902
+    color_temperature:
+      mirek: 366
+      mirek_schema:
+        mirek_minimum: 150
+        mirek_maximum: 500
+      mirek_valid: true
+    color_temperature_delta: {}
+    dimming:
+      brightness: 100.0
+      min_dim_level: 0.01
+    dimming_delta: {}
+    dynamics:
+      status: none
+      status_values:
+      - none
+      - dynamic_palette
+      speed: 0.0
+      speed_valid: false
+    effects:
+      status_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+      status: no_effect
+      effect_values:
+      - no_effect
+      - candle
+      - fire
+      - prism
+      - sparkle
+      - opal
+      - glisten
+      - underwater
+      - cosmos
+      - sunbeam
+      - enchant
+    effects_v2:
+      action:
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+      status:
+        effect: no_effect
+        effect_values:
+        - no_effect
+        - candle
+        - fire
+        - prism
+        - sparkle
+        - opal
+        - glisten
+        - underwater
+        - cosmos
+        - sunbeam
+        - enchant
+    service_id: 0
+    identify: {}
+    timed_effects:
+      status_values:
+      - no_effect
+      - sunrise
+      - sunset
+      status: no_effect
+      effect_values:
+      - no_effect
+      - sunrise
+      - sunset
+    mode: normal
+    'on':
+      'on': true
+    powerup:
+      preset: safety
+      configured: true
+      'on':
+        mode: 'on'
+        'on':
+          'on': true
+      dimming:
+        mode: dimming
+        dimming:
+          brightness: 100.0
+      color:
+        mode: color_temperature
+        color_temperature:
+          mirek: 366
+    signaling:
+      signal_values:
+      - no_signal
+      - on_off
+      - on_off_color
+      - alternating
+  f5f34b96-5ee4-5f14-8d90-8a6ebd3f412b:
+    type: taurus_7455
+    capabilities:
+    - sensor
+    - collector
+    - sync
+    owner:
+      rid: '74ce320e-d67a-5f64-b16f-53a1db41c8da'
+      rtype: device
+  f6d000c2-f310-5661-b9dd-eee6ecbda7e2:
+    type: taurus_7455
+    capabilities:
+    - sensor
+    - collector
+    - sync
+    owner:
+      rid: a217aa16-123a-53c8-9c63-a807cfe4c548
+      rtype: device
+  fb285591-652c-53c7-83df-875f35beabde:
+    type: taurus_7455
+    capabilities:
+    - sensor
+    - collector
+    - sync
+    owner:
+      rid: '5b357bd1-5a7f-5443-a2d5-57426f73f0f2'
+      rtype: device
+  fdbc8b2f-0146-5955-adf3-805f7312488b:
+    type: entertainment
+    equalizer: true
+    owner:
+      rid: '5b357bd1-5a7f-5443-a2d5-57426f73f0f2'
+      rtype: device
+    proxy: true
+    renderer: true
+    renderer_reference:
+      rid: '84d4845f-5b91-527e-8d30-3a33b9087609'
+      rtype: light
+    segments:
+      configurable: false
+      max_segments: 1
+      segments:
+      - length: 1
+        start: 0
+  fe091fad-046f-54bc-8520-0838d8accfb9:
+    type: light
+    owner:
+      rid: c0970dfd-a3bf-5b49-9f2a-d22648677e85
+      rtype: device
+    metadata:
+      name: Sofa COB
+      archetype: unknown_archetype
+      function: decorative
+    product_data:
+      function: decorative
+    alert:
+      action_values:
+      - breathe
+    color_temperature_delta: {}
+    dimming:
+      brightness: 100.0
+      min_dim_level: 0.01
+    dimming_delta: {}
+    dynamics:
+      status: none
+      status_values:
+      - none
+      - dynamic_palette
+      speed: 0.0
+      speed_valid: false
+    service_id: 0
+    identify: {}
+    timed_effects:
+      status_values:
+      - no_effect
+      - sunrise
+      - sunset
+      status: no_effect
+      effect_values:
+      - no_effect
+      - sunrise
+      - sunset
+    mode: normal
+    'on':
+      'on': false
+    powerup:
+      preset: safety
+      configured: true
+      'on':
+        mode: 'on'
+        'on':
+          'on': true
+      dimming:
+        mode: dimming
+        dimming:
+          brightness: 100.0
+      color:
+        mode: color_temperature
+        color_temperature:
+          mirek: 366
+    signaling:
+      signal_values:
+      - no_signal
+      - on_off
+      - on_off_color
+      - alternating

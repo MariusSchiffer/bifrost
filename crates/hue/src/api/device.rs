@@ -46,6 +46,11 @@ impl Device {
     pub fn entertainment_service(&self) -> Option<&ResourceLink> {
         self.service(RType::Entertainment)
     }
+
+    #[must_use]
+    pub fn zigbee_connectivity_service(&self) -> Option<&ResourceLink> {
+        self.service(RType::ZigbeeConnectivity)
+    }
 }
 
 #[derive(Debug, Serialize, Deserialize, Copy, Clone, PartialEq, Eq)]
