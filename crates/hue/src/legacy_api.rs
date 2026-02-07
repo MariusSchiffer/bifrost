@@ -2,10 +2,10 @@ use std::{collections::HashMap, net::Ipv4Addr};
 
 use chrono::{DateTime, Local, NaiveDateTime, Utc};
 use serde::{Deserialize, Serialize};
-use serde_json::{Value, json};
+use serde_json::{json, Value};
 use uuid::Uuid;
 
-use crate::api::{ColorGamut, DeviceProductData};
+use crate::api::{ColorGamut, DeviceArchetype, DeviceProductData};
 use crate::date_format;
 use crate::hs::RawHS;
 use crate::{api, best_guess_timezone};
@@ -547,6 +547,64 @@ pub struct ApiLight {
 }
 
 impl ApiLight {
+    /// Convert DeviceArchetype to V1 API archetype string.
+    /// The V1 API uses lowercase names without underscores (e.g., "hueplay" not "hue_play").
+    fn archetype_to_v1_string(archetype: &DeviceArchetype) -> String {
+        match archetype {
+            DeviceArchetype::HuePlay => "hueplay".to_string(),
+            DeviceArchetype::HueGo => "huego".to_string(),
+            DeviceArchetype::HueLightstrip => "huelightstrip".to_string(),
+            DeviceArchetype::HueIris => "hueiris".to_string(),
+            DeviceArchetype::HueBloom => "huebloom".to_string(),
+            DeviceArchetype::HueCentris => "huecentris".to_string(),
+            DeviceArchetype::HueLightstripTv => "huelightstriptv".to_string(),
+            DeviceArchetype::HueLightstripPc => "huelightstrippc".to_string(),
+            DeviceArchetype::HueTube => "huetube".to_string(),
+            DeviceArchetype::HueSigne => "huesigne".to_string(),
+            DeviceArchetype::SultanBulb => "sultanbulb".to_string(),
+            DeviceArchetype::ClassicBulb => "classicbulb".to_string(),
+            DeviceArchetype::FloodBulb => "floodbulb".to_string(),
+            DeviceArchetype::SpotBulb => "spotbulb".to_string(),
+            DeviceArchetype::CandleBulb => "candlebulb".to_string(),
+            DeviceArchetype::LusterBulb => "lusterbulb".to_string(),
+            DeviceArchetype::VintageBulb => "vintagebulb".to_string(),
+            DeviceArchetype::VintageCandleBulb => "vintagecandlebulb".to_string(),
+            DeviceArchetype::EllipseBulb => "ellipsebulb".to_string(),
+            DeviceArchetype::TriangleBulb => "trianglebulb".to_string(),
+            DeviceArchetype::SmallGlobeBulb => "smallglobebulb".to_string(),
+            DeviceArchetype::LargeGlobeBulb => "largeglobebulb".to_string(),
+            DeviceArchetype::EdisonBulb => "edisonbulb".to_string(),
+            DeviceArchetype::PendantRound => "pendantround".to_string(),
+            DeviceArchetype::PendantLong => "pendantlong".to_string(),
+            DeviceArchetype::PendantSpot => "pendantspot".to_string(),
+            DeviceArchetype::CeilingRound => "ceilinground".to_string(),
+            DeviceArchetype::CeilingSquare => "ceilingsquare".to_string(),
+            DeviceArchetype::CeilingHorizontal => "ceilinghorizontal".to_string(),
+            DeviceArchetype::CeilingTube => "ceilingtube".to_string(),
+            DeviceArchetype::FloorShade => "floorshade".to_string(),
+            DeviceArchetype::FloorLantern => "floorlantern".to_string(),
+            DeviceArchetype::TableShade => "tableshade".to_string(),
+            DeviceArchetype::TableWash => "tablewash".to_string(),
+            DeviceArchetype::RecessedCeiling => "recessedceiling".to_string(),
+            DeviceArchetype::RecessedFloor => "recessedfloor".to_string(),
+            DeviceArchetype::SingleSpot => "singlespot".to_string(),
+            DeviceArchetype::DoubleSpot => "doublespot".to_string(),
+            DeviceArchetype::WallLantern => "walllantern".to_string(),
+            DeviceArchetype::WallShade => "wallshade".to_string(),
+            DeviceArchetype::WallSpot => "wallspot".to_string(),
+            DeviceArchetype::WallWasher => "wallwasher".to_string(),
+            DeviceArchetype::FlexibleLamp => "flexiblelamp".to_string(),
+            DeviceArchetype::GroundSpot => "groundspot".to_string(),
+            DeviceArchetype::ChristmasTree => "christmastree".to_string(),
+            DeviceArchetype::StringLight => "stringlight".to_string(),
+            DeviceArchetype::Plug => "plug".to_string(),
+            DeviceArchetype::Bollard => "bollard".to_string(),
+            DeviceArchetype::BridgeV2 => "bridgev2".to_string(),
+            DeviceArchetype::UnknownArchetype => "unknownarchetype".to_string(),
+            DeviceArchetype::Other(s) => s.clone(),
+        }
+    }
+
     /// Format a Zigbee MAC address (e.g., "0x001788010612a661") to Hue uniqueid format
     /// (e.g., "00:17:88:01:06:12:a6:61-0b")
     fn format_uniqueid(mac: &str) -> Option<String> {
@@ -560,6 +618,13 @@ impl ApiLight {
             .map(|chunk| std::str::from_utf8(chunk).unwrap_or("00").to_string())
             .collect();
         Some(format!("{}-0b", formatted.join(":")))
+    }
+
+    /// Generate a swconfigid from the uniqueid using a simple hash
+    fn hash_to_swconfigid(uniqueid: &str) -> u32 {
+        uniqueid.bytes().fold(0u32, |acc, b| {
+            acc.wrapping_mul(31).wrapping_add(u32::from(b))
+        })
     }
 
     #[allow(clippy::cast_possible_truncation, clippy::cast_sign_loss)]
@@ -619,8 +684,8 @@ impl ApiLight {
                         "max": 500,
                         "min": 153
                     },
-                    "maxlumen": 800,
-                    "mindimlevel": 10
+                    "maxlumen": 540,
+                    "mindimlevel": 100
                 },
                 "streaming": {
                     "proxy": true,
@@ -628,9 +693,9 @@ impl ApiLight {
                 }
             }),
             config: json!({
-                "archetype": product_data.product_archetype,
-                "function": "mixed",
-                "direction": "downwards",
+                "archetype": Self::archetype_to_v1_string(&product_data.product_archetype),
+                "function": "decorative",
+                "direction": "upwards",
                 "startup": {
                     "mode": "safety",
                     "configured": true
@@ -638,12 +703,12 @@ impl ApiLight {
             }),
             light_type: "Extended color light".to_string(),
 
-            uniqueid,
+            uniqueid: uniqueid.clone(),
 
             swversion: product_data.software_version,
 
-            /* FIXME: Should have form "9012C6FD" */
-            swconfigid: None,
+            // Generate swconfigid from uniqueid hash
+            swconfigid: Some(format!("{:08X}", Self::hash_to_swconfigid(&uniqueid))),
         }
     }
 }
