@@ -9,6 +9,7 @@ use crate::api::{ColorGamut, DeviceArchetype, DeviceProductData};
 use crate::date_format;
 use crate::devicedb;
 use crate::hs::RawHS;
+use crate::xy::XY;
 use crate::{api, best_guess_timezone};
 
 #[cfg(feature = "mac")]
@@ -644,6 +645,14 @@ impl ApiLight {
 
         let product_data = dev.product_data.clone();
 
+        // Compute hue/sat from XY color if available
+        let brightness = light.dimming.map_or(254.0, |d| d.brightness * 2.54);
+        let (hue, sat) = light
+            .color
+            .as_ref()
+            .map(|col| XY::from(col.xy).to_hs(brightness))
+            .unwrap_or((0, 0));
+
         // Use formatted MAC address if available, otherwise fall back to UUID
         let uniqueid = mac_address
             .and_then(Self::format_uniqueid)
@@ -655,12 +664,12 @@ impl ApiLight {
                 bri: light
                     .dimming
                     .map(|dim| ((dim.brightness * 2.54) as u32).max(1)),
-                hue: None,
-                sat: None,
+                hue: if light.color.is_some() { Some(hue) } else { None },
+                sat: if light.color.is_some() { Some(sat) } else { None },
                 effect: Some("none".into()),
                 xy: light.color.clone().map(|col| col.xy.into()),
                 ct: light.color_temperature.clone().and_then(|ct| ct.mirek),
-                alert: "select".into(),
+                alert: "none".into(),
                 colormode: Some(colormode),
                 mode: "homeautomation".to_string(),
                 reachable: true,

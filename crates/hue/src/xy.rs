@@ -89,6 +89,44 @@ impl XY {
             .xy_to_rgb_color(self.x, self.y, brightness)
             .map(Clamp::unit_to_u8_clamped)
     }
+
+    /// Convert XY color to Hue/Saturation
+    /// Returns (hue: 0-65535, saturation: 0-254)
+    #[must_use]
+    #[allow(clippy::cast_possible_truncation, clippy::cast_sign_loss)]
+    pub fn to_hs(&self, brightness: f64) -> (u32, u32) {
+        let rgb = Self::COLOR_SPACE.xy_to_rgb_color(self.x, self.y, brightness);
+        let [r, g, b] = rgb;
+
+        let max = r.max(g).max(b);
+        let min = r.min(g).min(b);
+        let delta = max - min;
+
+        // Calculate saturation
+        let sat = if max > f64::EPSILON {
+            delta / max
+        } else {
+            0.0
+        };
+
+        // Calculate hue
+        let hue = if delta < f64::EPSILON {
+            0.0
+        } else if (max - r).abs() < f64::EPSILON {
+            ((g - b) / delta) % 6.0
+        } else if (max - g).abs() < f64::EPSILON {
+            (b - r) / delta + 2.0
+        } else {
+            (r - g) / delta + 4.0
+        };
+
+        // Convert to Hue API ranges: hue 0-65535, sat 0-254
+        let hue_normalized = if hue < 0.0 { hue + 6.0 } else { hue } / 6.0;
+        let hue_api = (hue_normalized * 65535.0) as u32;
+        let sat_api = (sat * 254.0) as u32;
+
+        (hue_api, sat_api)
+    }
 }
 
 impl XY {
